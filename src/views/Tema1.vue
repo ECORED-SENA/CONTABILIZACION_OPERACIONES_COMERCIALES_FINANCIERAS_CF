@@ -290,7 +290,7 @@
       .row
         .col-lg-4
           figure.mb-5(data-aos='fade-right')
-            img.mx-auto(src='@/assets/curso/tema1/img20.svg', alt='imagen ambiental', style='400ox;')
+            img.mx-auto(src='@/assets/curso/tema1/img20.svg', alt='imagen ambiental', style='width:400px;')
         .col-lg-8.mb-5
           p.mb-4 #[strong Formule los saldos finales:] cada saldo debe ser formulado en la columna de la naturaleza de la cuenta.
           p.mb-4 Sumar las columnas de los saldos iniciales y del movimiento de la naturaleza y, restarles los de la naturaleza contraria.  
@@ -305,15 +305,247 @@
       .h2 1.4 Kárdex del inventario         
 
 
+    p.mb-4 Conocido también como auxiliar de inventarios o almacén, es un libro contable que por cada referencia de productos del inventario muestra cronológicamente sus movimientos de entradas, salidas y saldos, tanto de unidades como de costos unitarios y totales.
+    p.mb-4 A continuación, se describe el proceso para la construcción de hojas de datos, necesarias para alimentar y construir el libro de kárdex en una hoja de cálculo:
+
+    .row.justify-content-center.fondo-custom
+      .col-lg-12.mt-5.mb-0.px-5
+        .row.justify-content-center
+          .col-lg-4
+            figure.mb-2(data-aos='fade-right')
+              img.img-size.mx-auto(src='@/assets/curso/tema1/img21.svg', alt='imagen ambiental', style='')
+          .col-lg-8
+            ol.lista-ol--cuadro
+              li 
+                .lista-ol--cuadro__vineta
+                  span #[strong 1]
+                p.mb-0 En la parte inferior donde encuentra el signo + dé clic para crear tres hojas nuevas, luego sobre cada hoja de doble clic y cambie el nombre por artículos, datos y kárdex, como se muestra en la siguiente figura:
+            .row.justify-content-center
+              .col-lg-11
+                .titulo-sexto.color-acento-contenido.mb-3
+                  p.mb-0 Ejemplo nombramiento de las hojas 
+                figure.mb-4(data-aos='')
+                  img.mx-auto(src='@/assets/curso/tema1/img22.svg', alt='Ejemplo nombramiento de las hojas', style='width:750px;')
+
+            ol.lista-ol--cuadro
+              li 
+                .lista-ol--cuadro__vineta
+                  span #[strong 2]
+                p.mb-0 #[strong Artículos:] en la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda A1, resáltelos en negrita y rellene la celda con color gris.  Debe quedar como se muestra en la siguiente figura:
+            .row.justify-content-center
+              .col-lg-11
+                .titulo-sexto.color-acento-contenido.mb-3
+                  p.mb-0 Encabezados hoja para artículos del kárdex
+                figure.mb-4(data-aos='')
+                  img.mx-auto(src='@/assets/curso/tema1/img23.svg', alt='Encabezados hoja para artículos del kárdex', style='width:750px;')
+            
+            ol.lista-ol--cuadro
+              li 
+                .lista-ol--cuadro__vineta
+                  span #[strong 3]
+                p.mb-0 #[strong Datos:] en la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda B2, resáltelos en negrita y rellene la celda con color gris.  Observe el ejemplo guía en la siguiente figura:
+            .row.justify-content-center
+              .col-lg-11
+                .titulo-sexto.color-acento-contenido.mb-3
+                  p.mb-0 Encabezados hoja de datos del Kárdex
+                figure.mb-4(data-aos='')
+                  img.mx-auto(src='@/assets/curso/tema1/img24.svg', alt='Encabezados hoja de datos del Kárdex', style='width:750px;')
+                p.mb-3 Se formulan las columnas: total compra y total venta, las demás se alimentan según los hechos económicos de la empresa.  La siguiente figura le ayuda a identificar estas columnas:
+                .titulo-sexto.color-acento-contenido.mb-3
+                  p.mb-0 Columnas a formular en la hoja de datos
+                .row.justify-content-center
+                  .col-lg-8
+                    figure.mb-4(data-aos='')
+                      img.mx-auto(src='@/assets/curso/tema1/img25.svg', alt='Columnas a formular en la hoja de datos', style='width:750px;')
+                  .col-lg-4.align-self-center.mb-2
+                    p.mb-2 Mire cómo quedan las fórmulas:
+                    p.mb-0 #[strong Valor total compra =+G2*I2]
+                    p #[strong Valor total venta =+H13*K13]
+                .cajon.color-primario.p-4.mb-0(style='background-color:#fff;')
+                  p.mb-0 #[strong Recuerde:] en esta hoja se alimenta la información en orden cronológico como se hace en el libro diario.
+
+      .col-lg-12.mt-4.mb-4.px-5
+        .row.justify-content-center
+          .col-lg-4
+            figure.mb-2(data-aos='fade-right')
+              img.img-size.mx-auto(src='@/assets/curso/tema1/img26.svg', alt='imagen ambiental', style='')
+          .col-lg-8
+            ol.lista-ol--cuadro
+              li 
+                .lista-ol--cuadro__vineta
+                  span #[strong 4]
+                p.mb-0 #[strong Kárdex:] en la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda B2, resáltelos en negrita y rellene la celda con color gris.  Use como guía la siguiente figura:
+            .row.justify-content-center
+              .col-lg-11
+                .titulo-sexto.color-acento-contenido.mb-3
+                  p.mb-0 Encabezados hoja de kárdex
+                figure.mb-4(data-aos='')
+                  img.mx-auto(src='@/assets/curso/tema1/img27.svg', alt='Encabezados hoja de kárdex ', style='width:550px;')
+                p.mb-5 Tenga presente que en esta hoja se formulan todas las columnas.
+            
+            ol.lista-ol--cuadro
+              li 
+                .lista-ol--cuadro__vineta
+                  span #[strong 5]
+                p.mb-0 Mire cómo quedan las fórmulas:
+            .row.justify-content-center
+              .col-lg-11
+                p.mb-0 #[strong Código:] =ARTICULOS! B2
+                p.mb-0 #[strong Artículo:]  =ARTICULOS! A2
+                p.mb-4 #[strong Vr. Unitario:] =SI.ERROR(SUMAR.SI. CONJUNTO(DATOS!J:J;DATOS!C:C;A7)/D7;"")
+
+                p.mb-0 #[strong Entradas]
+                p.mb-4 Cantidad: =SI.ERROR(SUMAR.SI.CONJUNTO(DATOS!$G$2:$G$52;DATOS!$C$2:$C$52;A7);””)
+                
+                p.mb-4 Valor: =SI.ERROR(+C7*D7;"")
+                
+                p.mb-0 #[strong Salidas]
+                p.mb-4 Cantidad: =SI.ERROR(SUMAR.SI.CONJUNTO(DATOS!$H$2:$H$52;DATOS!$C$2:$C$52;A7);"")
+
+                p.mb-4 Valor: =SI.ERROR(+C7*F7;"")
+
+                p.mb-0 #[strong Saldos]
+                p.mb-0 Cantidad: =+D7-F7
+                p.mb-4 Valor  =SI.ERROR(+E7-G7;"")
+
+                .cajon.color-primario.p-4.mb-4(style='background-color:#fff;')
+                  p.mb-0 #[strong Recuerde:] en esta hoja se muestra en forma resumida la información de la hoja de datos.
+
+                p.mb-4 Para explorar y descubrir el paso a paso de cada fórmula cópiela en una celda de Excel y luego en la barra dé clic en fx, como se muestra en la siguiente figura:
+
+                .titulo-sexto.color-acento-contenido.mb-3
+                  p.mb-0  Botón funciones
+                figure.mb-4(data-aos='')
+                  img(src='@/assets/curso/tema1/img28.jpg', alt=' Botón funciones ', style='width:345px;')
+
+
     separador
     #t_1_5.titulo-segundo
       .h2 1.5 Comprobante de cierre y ajustes
     
+    .row.justify-content-center 
+      .col-lg-5.align-self-center
+        figure.mb-4(data-aos='fade-right')
+          img(src='@/assets/curso/tema1/img29.svg', alt='imagen ambiental', style='width:505px;')
+      .col-lg-7
+        .cajon-b.color-acento-contenido.p-3.px-0.mb-0
+          p.mb-0 El proceso de depuración de las cuentas de resultados es lo que se conoce como cierre contable. Consiste en cancelar las cuentas de resultados, es decir, llevar las cuentas de ingresos, costos y gastos hasta el saldo cero.
+        p.mb-3  Para lograr este objetivo se utiliza una cuenta transitoria denominada pérdidas y ganancias (5905), a la cual llegan todos los saldos que se extraen de las cuentas de resultados y por tanto, refleja el resultado del ejercicio.
+        p.mb-4 La operación es sencilla, como los costos y gastos aumentan por el débito, el ajuste será tomar el saldo de la cuenta, llevarlo al crédito de la misma y luego registrarlo en el débito de la cuenta transitoria de pérdidas y ganancias; el mismo proceso se realiza con los ingresos, que al ser de naturaleza crédito se ajustan con un registro del saldo en el débito y un posterior asiento al crédito de la cuenta pérdidas y ganancias.
+
+    .row.justify-content-center 
+      .col-lg-6
+        .cajon-b.color-primario.p-3.px-0.mb-0
+          p.mb-0 El saldo que se obtenga en la cuenta transitoria indicará si la entidad obtuvo ganancias o pérdidas, que en el caso de las entidades sin ánimo de lucro se denominan excedentes o pérdidas.
+        p.mb-3  Cuando el saldo de la cuenta transitoria sea débito, la interpretación será que fueron mayores los costos y gastos y por tanto, se originó una pérdida; si por el contrario el saldo fue crédito, significa que fueron mayores los ingresos y por tanto, hay un resultado positivo que se traduce en utilidad.
+        p.mb-4 Después de haber llevado todas las cuentas de resultados a la cuenta transitoria de pérdidas y ganancias, el saldo de esta última se cancela contra la cuenta del patrimonio resultados del ejercicio (3605 o 36109).
+      .col-lg-6.align-self-center
+        figure.mb-4(data-aos='fade-left')
+          img.mx-auto(src='@/assets/curso/tema1/img30.svg', alt='imagen ambiental', style='width:605px;')
+    
+    .cajon.color-secundario.p-4.mb-5
+      p.mb-0 Para efectos de la presentación en los estados financieros, cuando el resultado del período haya sido pérdida, se mostrará el valor restando, para tal fin suelen usarse los paréntesis, pero también se puede anteceder un signo negativo en el patrimonio (Actualícese, 2016).
+    
+    .row.justify-content-center.fondo-custom2
+      .col-lg-12.mt-5.mb-0.px-5
+        .row.justify-content-center
+          p.mb-3 #[strong Ejemplo:]
+          .col-lg-6
+            a.anexo.mb-4.ms-0(href="https://actualicese.com/cierre-contable-elementos-basicos/?utm_source=actualicese-email-marketing&utm_medium=boletin-diario&utm_campaign=04-02-2016&utm_content=cierre-contable-elementos-basicos&campana" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p.mb-0 #[strong Enlace web.] Para ver un ejemplo paso a paso sobre un cierre contable revise el siguiente enlace.
+            
+            p.mb-3 Para construir el comprobante contable de cierre en Excel proceda como en los puntos anteriores, creando una nueva hoja como se muestra en la siguiente figura:
+            .titulo-sexto.color-acento-contenido.mb-3
+              p.mb-0 Comprobante de cierre
+            figure.mb-4(data-aos='')
+              img.mx-auto(src='@/assets/curso/tema1/img32.svg', alt='Comprobante de cierre', style='width:505px;')
+            
+            p.mb-3 Ahora, en la hoja denominada comprobante de cierre, creé los encabezados sugeridos en la siguiente figura:
+            .titulo-sexto.color-acento-contenido.mb-3
+              p.mb-0 Encabezados hoja comprobante de cierre
+            figure.mb-4(data-aos='')
+              img.mx-auto(src='@/assets/curso/tema1/img33.svg', alt='Encabezados hoja comprobante de cierre', style='width:445px;')
+            
+            p.mb-5 Por último, registre los asientos de cierre tal como lo haría en la hoja de libro diario.
+          
+          .col-auto
+            figure.mb-4(data-aos='fade-left')
+              img.mx-auto(src='@/assets/curso/tema1/img31.svg', alt='imagen ambiental', style='width:505px;')
 
     separador
     #t_1_6.titulo-segundo
       .h2 1.6 Balance de prueba ajustado
   
+    p.mb-4 Contiene los saldos de las cuentas de libro mayor, después de ser afectadas por los asientos de ajuste. Es un documento interno y no es un estado financiero.
+    p.mb-4 A continuación, se describe el proceso para la construcción del balance de prueba ajustado en una hoja de cálculo:
+    .row.justify-content-center
+      .col-lg-4
+        figure.mb-4(data-aos='fade-left')
+          img.mx-auto(src='@/assets/curso/tema1/img34.svg', alt='imagen ambiental', style='width:400px;')
+      .col-lg-8
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span #[strong 1]
+            p.mb-0 Para construirlo inicie con la creación de una nueva hoja con el nombre: balance de prueba ajustado, como se observa en la siguiente figura:
+        .row.justify-content-center
+          .col-lg-11
+            .titulo-sexto.color-acento-contenido.mb-3
+              p.mb-0  Balance de prueba ajustado
+            figure.mb-5(data-aos='')
+              img.mx-auto(src='@/assets/curso/tema1/img35.svg', alt='Balance de prueba ajustado', style='width:490px;')
+        
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span #[strong 2]
+            p.mb-0 Cree los encabezados en la hoja que acaba de nombrar como se muestra en la siguiente figura:
+        .row.justify-content-center
+          .col-lg-11
+            .titulo-sexto.color-acento-contenido.mb-3
+              p.mb-0   Encabezados hoja balance de prueba
+            figure.mb-5(data-aos='')
+              img.mx-auto(src='@/assets/curso/tema1/img36.svg', alt=' Encabezados hoja balance de prueba', style='width:560px;')
+        
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span #[strong 3]
+            p.mb-0 Formule todas las columnas, a continuación, encontrará las fórmulas, use los procedimientos aprendidos para construirlas directamente en la hoja o copie y pegue cada fórmula en la columna sugerida:
+        .row.justify-content-center
+          .col-lg-11
+            p.mb-0 Código:  =+'Libro Mayor'!B5
+            p.mb-4 Descripción de la cuenta:  ==+'Libro Mayor'!C5
+            
+            p.mb-0 #[strong Saldos iniciales:] corresponden a los valores de la columna de los saldos finales del libro mayor.
+            p.mb-0 Débito: =+'Libro Mayor'!H5
+            p.mb-4 Crédito =+'Libro Mayor'!I5
+
+            p.mb-3 #[strong Movimiento:] valores del comprobante de ajuste, utilice de nuevo la fórmula sumar.si.conjunto, que se aplicó en el libro mayor.
+            
+            .cajon.color-secundario.p-4.mb-3
+              p.mb-4 La fórmula quedará así:
+              p.mb-0 #[strong Fórmula=SUMAR.SI.CONJUNTO(Mayor!$F$3:$F$457,Mayor!$B$3:$B$457,"110505")] 
+        
+            p.mb-3 #[strong Saldos finales:] sumar las columnas de los saldos iniciales y del movimiento de la naturaleza de la cuenta y restarles los de la naturaleza contraria.
+        
+            .cajon.color-acento-contenido.p-4.mb-3
+              p.mb-0 #[strong Ejemplo:] para el caso de la cuenta 110505 cajas se suma el saldo inicial débito con el movimiento débito y se resta el movimiento crédito.
+        
+        
+        
+        
+
+
+
+
+
+
+
+
 </template>
 
 <script>
