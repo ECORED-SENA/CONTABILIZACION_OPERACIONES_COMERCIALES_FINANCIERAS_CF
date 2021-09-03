@@ -62,7 +62,42 @@
 
     p.mb-4 A nivel empresarial las hojas de cálculo constituyen una herramienta fundamental para la organización, análisis, interpretación y simulación de datos. La mayoría de los aplicativos corporativos, incluidos módulos contables, de facturación, de nómina, etc., permiten la exportación de los datos a hojas de cálculo.
     
-    
+    .row.mb-5(style='')
+      .col-lg-12.fondo-azul
+        .contenedor-total.mt-4
+          .contenedor-img
+            figure
+              img(src="@/assets/curso/tema1/imgX.svg" alt="", style='width:295px')
+          .contenedor-especial.br-left
+                ul.lista-ul
+                  li 
+                    i.far.fa-folder-open
+                    p.mb-0 Organizar los datos, ya sean numéricos o de texto, en hojas o libros de cálculo.
+                  li 
+                    i.far.fa-folder-open
+                    p.mb-0 Aplicar formatos para ver los datos en contextos que ayuden en la  toma de decisiones.
+                  li 
+                    i.far.fa-folder-open
+                    p.mb-0 Ordenar la información según la necesidad.
+                  li 
+                    i.far.fa-folder-open
+                    p.mb-0 Realizar búsquedas dentro de los datos existentes en la hoja.
+                  li 
+                    i.far.fa-folder-open
+                    p.mb-0 Analizar automáticamente los apuntes, con formatos prediseñados y que se sugieren de acuerdo con el tipo de datos cargados.
+                  li 
+                    i.far.fa-folder-open
+                    p.mb-0 Aplicar variadas funciones de cálculos, desde simples sumas hasta operaciones más complejas.
+                  li 
+                    i.far.fa-folder-open
+                    p.mb-0 Utilizar barras, colores e iconos automatizados para destacar tendencias y patrones en los datos.
+                  li 
+                    i.far.fa-folder-open
+                    p.mb-0 Graficar los datos con mucha facilidad, ya que Excel puede recomendar los diagramas y gráficos que mejor se ajusten a los posibles análisis.
+                  li 
+                    i.far.fa-folder-open
+                    p.mb-0 Crear y compartir las plantillas en la nube, con colaboradores, contactos, interesados etc., facilitando el trabajo en conjunto (Cecodeem, s.f.).
+            
 
 
     p.mb-4 Para utilizar las funciones anteriores, las hojas de cálculo cuentan con un menú en la parte superior que facilita buscar y explorar según la necesidad de la organización y de los datos que se tenga, como se puede visualizar en la siguiente figura:
@@ -173,9 +208,9 @@
             
           .col-lg-5.mb-5
             figure(data-aos='fade-left')
-              img(src='@/assets/curso/tema1/img7.svg', alt='imagen ambiental', style='width: 500px;')
+              img.img-size.mx-auto(src='@/assets/curso/tema1/img7.svg', alt='imagen ambiental', style='')
           
-          .col-lg-12.p-0
+          .col-lg-12
             p.mb-4 En este libro deberá registrar en orden cronológico los hechos económicos, teniendo cuidado de registrar siempre a nivel sub-cuenta o auxiliar (6 dígitos) y escribir el nombre de la cuenta tal como aparece en el PUC y los valores en pesos según corresponda en la columna débito o crédito.
             .cajon.color-acento-contenido.p-4
               p.mb-0 Recuerde: se debe verificar que cada registro cumple el principio de partida doble, antes de proceder a escribir el siguiente y no dejar filas entre un registro y otro, ya que esto impedirá el uso de filtros en la hoja para posteriores consultas de los datos.

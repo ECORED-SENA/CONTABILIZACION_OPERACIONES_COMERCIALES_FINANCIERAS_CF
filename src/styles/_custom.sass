@@ -1,14 +1,13 @@
 
-
-.cajon.color-primario 
+.cajon.color-primario
   background-color: #dcebf9
 
-.tabs-a__tab 
+.tabs-a__tab
   background-color: #E8E8E8
 
-.tabs-a.color-secundario .tabs-a__tab__selected 
+.tabs-a.color-secundario .tabs-a__tab__selected
   background-color: #6595BF
-.tabs-a.color-secundario .tabs-a__tab__selected:before 
+.tabs-a.color-secundario .tabs-a__tab__selected:before
   background-color: #6595BF
 .tabs-a.color-secundario .tabs-a__tab:hover, .tabs-a.color-secundario .tabs-a__tab:active, .tabs-a.color-secundario .tabs-a__tab:focus
   background-color: #6595BF
@@ -16,12 +15,12 @@
 .tabs-c.color-primario .tabs-c__tab--active
   font-weight: bold
 
-.tarjeta.color-primario 
+.tarjeta.color-primario
   background-color: #dcebf9
-.cajon.color-secundario 
+.cajon.color-secundario
   background-color: #83859141
 
-.bloque-texto-b.color-primario:before 
+.bloque-texto-b.color-primario:before
   background-color: #e1f1ff
   left: 60%
 
@@ -32,15 +31,15 @@
   background-color: #fff7f0
   margin-inline: -3rem
 
-.tarjeta-numerada 
+.tarjeta-numerada
   border: solid 0px
   border-bottom: solid 1px
   border-radius: 0px
-    
+
 .tarjeta-numerada.color-primario
   border-color: #AFAFAF
 
-.tarjeta-numerada.color-primario .tarjeta-numerada__numero div 
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero div
   color: #ffff
   font-size: 28px
 .fa-folder-open
@@ -49,7 +48,7 @@
 .pasos-a.color-acento-contenido .pasos-a__circle div
   color: #ffff
 
-.pasos-a__circle 
+.pasos-a__circle
   width: 60px
   height: 60px
 
@@ -60,24 +59,66 @@
   background-repeat: no-repeat
   background-position: center
 
-
-
 .lista-ol--cuadro__vineta
   background-color: #6595BF
-
 
 .anexo-custom
   padding-bottom: 15px
   padding-top: 15px
   border-radius: 50px
   background-color: #6595BF
+
+/////////////////////
+.traslape1
+  display: inline-flexbox
+  clear: both
+  .col-z1
+    z-index: 1
+  .col-z2
+    z-index: 2
+  .f-left
+    float: left
+    img
+      margin-left: 11.3%
+  .f-right
+    float: right
+    .contenedor3c
+      margin-left: -11.3%
+
+.contenedor-total
+  width: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+
+.contenedor-especial
+  background: #FAFAFA
+  border-radius: 10px
+  position: relative
+  box-shadow: 0 0 15px rgba(0,0,0,.3)
+  align-self: flex-end
+  padding-top: 3rem
+  padding-bottom: 3rem
+  padding-left: 8rem
+  padding-right: 3rem
+  width: 100%
+  z-index: 0
+  //margin-top: 1rem
+  &--color-primario
+    background-color: #CDEDFC
+.br-left
+  margin-left: -4.7rem
   
 
-
-
-
-
-
+@media screen and ( min-width: 992px)
+  .fondo-azul
+    background: url('../assets/curso/tema1/bg1.svg')
+    background-position: left
+    background-size: contain
+    background-repeat: no-repeat
+  .contenedor-img
+    width: 30%
+    z-index: 10
 
 @media screen and ( max-width: 988px)
   .fondo1,.fondo-custom, .fondo-custom2

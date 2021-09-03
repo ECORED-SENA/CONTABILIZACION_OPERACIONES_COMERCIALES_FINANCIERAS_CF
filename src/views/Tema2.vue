@@ -166,19 +166,127 @@
     #t_2_2.titulo-segundo
       .h2 2.2 Ingreso al software 
 
+    p.mb-4 Para ingresar a la licencia demo que se le asigna como aprendiz debe realizarlo con el correo @misena y tiene 2 opciones de URL:
+    .row.justify-content-center.mb-2
+      .col-auto(data-aos='fade-right')
+        a.anexo.anexo-custom.mb-4.mb-lg-4(href="https://sena.siigo.com/ISIIGO/Login.aspx?ReturnUrl=%2fISIIGO%2fDefault.aspx" target="_blank" style="")
+          .anexo__icono
+            img(src="@/assets/template/icono-link-custom.svg" style='border-radius: 50px;')
+          .anexo__texto.text-white
+            p.mb-0 
+              b sena.siigo.com
+      .col-auto(data-aos='fade-right')
+        a.anexo.anexo-custom.mb-4.mb-lg-4(href="https://sena.siigo.com/ISIIGO/Login.aspx" target="_blank" style="")
+          .anexo__icono
+            img(src="@/assets/template/icono-link-custom.svg" style='border-radius: 50px;')
+          .anexo__texto.text-white
+            p.mb-0 
+              b https://sena.siigo.com/ISIIGO/Login.aspx
+      .col-auto(data-aos='fade-right')
+        a.anexo.anexo-custom.mb-4.mb-lg-4(href="https://divulgacionacademica.siigo.com/" target="_blank" style="")
+          .anexo__icono
+            img(src="@/assets/template/icono-link-custom.svg" style='border-radius: 50px;')
+          .anexo__texto.text-white
+            p.mb-0 #[strong https://divulgacionacademica.siigo.com/]
+    
+    p.mb-5 En la última opción, debe ir a accesos y luego a iniciar sesión SENA.  Por cualquiera de las tres opciones llegará al pantallazo de ingreso, que se observa en la siguiente figura:
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 Acceso o ingreso a la herramienta SIIGO
+        figure.mb-4(data-aos="fade-left")
+          img.mx-auto(src="@/assets/curso/tema2/img7.jpg" alt='Acceso o ingreso a la herramienta SIIGO' style='width:800px;')
 
-    
-    
+
+    .row.justify-content-center
+      .col-lg-5
+        figure.mb-4(data-aos="fade-right")
+          img.mx-auto(src="@/assets/curso/tema2/img8.svg" alt='imagen ambiental' style='width:500px;')
+      .col-lg-7
+        .cajon.color-secundario.p-4.mb-4
+          p.mb-0 Recuerde que el usuario es su correo @misena y la contraseña se la entregará el instructor, #[strong no cambie la contraseña, la versión demo no tiene habilitada esa función y si la cambia bloqueará la licencia que se le ha asignado.]
+        p En la siguiente URL puede acceder al material actualizado y publicado por la casa del software, para ampliar la información, igualmente a través de esta página se accede a las licencias de prueba que el SENA le asigna para realizar las prácticas contables durante el trimestre de estudio.
+        .row
+          .col-auto
+            a.anexo.mb-4.mb-lg-0(href="https://divulgacionacademica.siigo.com/" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[strong Enlace web.] Divulgacion academica SIIGO.
+
+
     separador
     #t_2_3.titulo-segundo
       .h2 2.3  Entorno del software 
 
+    p.mb-4 Al ingresar a SIIGO nube encontrará la pantalla que se muestra en la siguiente figura, donde podrá identificar los datos de su instructor, los propios y los del curso. Observe la figura para identificar el entorno de trabajo del software.
 
+    .row.justify-content-center
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 Pantalla de inicio en la herramienta SIIGO
+        figure.mb-5
+          img(src='@/assets/template/img-placeholder.svg', alt='')
     
+    .row.justify-content-center
+      .col-lg-4
+        figure.mb-5
+          img(src='@/assets/curso/tema2/img9.svg', alt='imagen ambiental', style='width:400px;')
+      .col-lg-8.align-self-center
+        h4.mb-4 Los Menús de SIIGO nube
+        p.mb-4 El menú +Crear le permite en cualquier momento acceder a los archivos base de terceros, comprobantes, documentos, procesos, etc.,  y en el menú ayuda encuentra videos y material para el aprendizaje del software, #[strong identifique estos menús en la parte superior derecha.]
+        p.mb-4 En el menú lateral izquierdo, se encuentran las opciones que se muestran en la siguiente figura:
+
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 Opciones del menú lateral izquierdo de la herramienta SIIGO
+        figure.mb-4(data-aos="")
+          img.mx-auto(src="@/assets/curso/tema2/img10.svg" alt='Opciones del menú lateral izquierdo de la herramienta SIIGO' style='width:800px;')
+
+    p.mb-5 Las opciones del menú superior derecho se muestran en la siguiente figura:
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 Opciones del menú superior derecho de la  herramienta SIIGO
+        figure.mb-4(data-aos="fade-right")
+          img.mx-auto(src="@/assets/curso/tema2/img11.svg" alt='Opciones del menú superior derecho de la  herramienta SIIGO' style='width:800px;')
+        .row.justify-content-center
+          .col-auto
+            a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[strong Enlace web.] Para ampliar la información sobre estos softwares contables revise el siguiente enlace.
+
     
     separador
     #t_2_4.titulo-segundo
       .h2 2.4 Ingreso de información al software
+
+    p.mb-4 En SIIGO nube existen dos alternativas para el ingreso de información: desde el menú transacciones y desde el menú contabilidad.  Conozca las diferencias entre ambas alternativas mediante la siguiente figura:
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 Alternativas de ingreso en la herramienta SIIGO
+        figure.mb-4(data-aos="fñip-left")
+          img.mx-auto(src="@/assets/curso/tema2/img12.svg" alt='Alternativas de ingreso en la herramienta SIIGO' style='width:800px;')
+
+    h3.mb-4  Mediante módulo de transacciones.
+    p.mb-4 Para aprender a ingresar gastos en SIIGO nube mediante el módulo transacciones siga estos pasos:
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    
+    h3.mb-4 Mediante módulo de contabilidad.
+    p.mb-4 Para aprender a ingresar transacciones,mediante el módulo contabilidad te invitamos a siga estos pasos:
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
 
 
     
@@ -186,6 +294,15 @@
     separador
     #t_2_5.titulo-segundo
       .h2 2.5 Generación de reportes
+
+
+    p.mb-4 Para aprender a consultar y  generar los diversos informes contables a través de SIIGO nube siga estos pasos:
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+
+
 
 
 
