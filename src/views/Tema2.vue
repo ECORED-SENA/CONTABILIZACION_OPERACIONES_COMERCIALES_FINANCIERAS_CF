@@ -51,28 +51,28 @@
     p.mb-5 Para la formación se utilizará el software contable SIIGO nube. Para ampliar la información sobre estos software contables revise los siguientes enlaces:
     
     .row.justify-content-center
-      .col-lg-3(data-aos='fade-left')
+      .col-lg-3.col-md-auto(data-aos='fade-left')
         a.anexo.anexo-custom.mb-4.mb-lg-4(href="http://www.alegra.com/" target="_blank" style="")
           .anexo__icono
             img(src="@/assets/template/icono-link-custom.svg" style='border-radius: 50px;')
           .anexo__texto.text-white
             p.mb-0 
               b Soluciones Alegra S.A.S.
-      .col-3(data-aos='fade-left')
+      .col-lg-3.col-md-auto(data-aos='fade-left')
         a.anexo.anexo-custom.mb-4.mb-lg-4(href="http://coiaspel.com/" target="_blank" style="")
           .anexo__icono
             img(src="@/assets/template/icono-link-custom.svg" style='border-radius: 50px;')
           .anexo__texto.text-white
             p.mb-0 
               b Siesa Aspel S.A.S.
-      .col-2(data-aos='fade-left')
+      .col-auto(data-aos='fade-left')
         a.anexo.anexo-custom.mb-4.mb-lg-4(href="http://contpaqi.com/" target="_blank" style="")
           .anexo__icono
             img(src="@/assets/template/icono-link-custom.svg" style='border-radius: 50px;')
           .anexo__texto.text-white
             p.mb-0 
               b CONTPAQi
-      .col-2(data-aos='fade-left')
+      .col-auto(data-aos='fade-left')
         a.anexo.anexo-custom.mb-4.mb-lg-4(href="http://helisa.com/" target="_blank" style="")
           .anexo__icono
             img(src="@/assets/template/icono-link-custom.svg" style='border-radius: 50px;')
@@ -81,21 +81,21 @@
               b Helisa
     
     .row.justify-content-center
-      .col-4(data-aos='fade-right')
+      .col-lg-4.col-md-auto(data-aos='fade-right')
         a.anexo.anexo-custom.mb-4.mb-lg-4(href="http://www.alegra.com/" target="_blank" style="")
           .anexo__icono
             img(src="@/assets/template/icono-link-custom.svg" style='border-radius: 50px;')
           .anexo__texto.text-white
             p.mb-0 
               b SAP Company Information
-      .col-5(data-aos='fade-right')
+      .col-lg-5.col-md-auto(data-aos='fade-right')
         a.anexo.anexo-custom.mb-4.mb-lg-4(href="http://coiaspel.com/" target="_blank" style="")
           .anexo__icono
             img(src="@/assets/template/icono-link-custom.svg" style='border-radius: 50px;')
           .anexo__texto.text-white
             p.mb-0 
               b Siigo · Software contable y administrativo
-      .col-3(data-aos='fade-right')
+      .col-lg-3.col-md-auto(data-aos='fade-right')
         a.anexo.anexo-custom.mb-4.mb-lg-4(href="http://contpaqi.com/" target="_blank" style="")
           .anexo__icono
             img(src="@/assets/template/icono-link-custom.svg" style='border-radius: 50px;')

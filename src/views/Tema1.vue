@@ -65,10 +65,10 @@
     .row.mb-5(style='')
       .col-lg-12.fondo-azul
         .contenedor-total.mt-4
-          .contenedor-img
+          .contenedor-img(data-aos='fade-right')
             figure
-              img(src="@/assets/curso/tema1/imgX.svg" alt="", style='width:295px')
-          .contenedor-especial.br-left
+              img(src="@/assets/curso/tema1/imgX.svg" alt="", style='width:250px')
+          .contenedor-especial.br-left(data-aos='fade-left')
                 ul.lista-ul
                   li 
                     i.far.fa-folder-open
@@ -123,7 +123,7 @@
 
 
     separador
-    #t_1_1.titulo-segundo
+    #t_1_2.titulo-segundo
       .h2 1.2 Libro diario
 
     .row.justify-content-center
@@ -310,27 +310,31 @@
                   img.mx-auto(src='@/assets/curso/tema1/img18.jpg', alt='Argumentos de funcion', style='width: 700px;')
 
     .row.fondo1.justify-content-center
-      .col-12.mt-5.mb-5
+      .col-lg-12.mt-5.mb-5.px-5
         p A continuación, se presenta un ejemplo gráfico, que permite identificar cómo quedan los campos diligenciados:
       .col-lg-8
         figure.mb-5(data-aos='fade-left')
           img.mx-auto(src='@/assets/curso/tema1/img19.jpg', alt=' Ejemplo argumentos de la fórmula ', style='')
-      p.mb-4 Como se observa (rango_suma) está lleno en el libro diario, al igual que la columna F donde están los débitos y, los sumará si en la columna B del diario (rango_criterio1) la cuenta es igual a 110505 (criterio 1).
+      .col-lg-12.px-5
+        p.mb-4 Como se observa (rango_suma) está lleno en el libro diario, al igual que la columna F donde están los débitos y, los sumará si en la columna B del diario (rango_criterio1) la cuenta es igual a 110505 (criterio 1).
       .col-lg-8
         .cajon.color-primario.p-4.mb-4(style='background-color: #fff;')
           p.mb-4 La fórmula quedará así:
           p
             b Fórmula=SUMAR.SI.CONJUNTO(Diario!$F$3:$F$457,Diario!$B$3:$B$457,"110505")
-      p.mb-4 De esta manera se debe formular toda la columna, puede copiar y pegar la fórmula, teniendo cuidado que los rangos se conserven y que el (criterio 1) cambie según sea la cuenta de la fila que está formulando, igualmente tenga en cuenta formular, tanto la columna débito como la de crédito.
+      .col-lg-12.px-5
+        p.mb-4 De esta manera se debe formular toda la columna, puede copiar y pegar la fórmula, teniendo cuidado que los rangos se conserven y que el (criterio 1) cambie según sea la cuenta de la fila que está formulando, igualmente tenga en cuenta formular, tanto la columna débito como la de crédito.
       .row
-        .col-lg-4
-          figure.mb-5(data-aos='fade-right')
-            img.mx-auto(src='@/assets/curso/tema1/img20.svg', alt='imagen ambiental', style='width:400px;')
-        .col-lg-8.mb-5
-          p.mb-4 #[strong Formule los saldos finales:] cada saldo debe ser formulado en la columna de la naturaleza de la cuenta.
-          p.mb-4 Sumar las columnas de los saldos iniciales y del movimiento de la naturaleza y, restarles los de la naturaleza contraria.  
-          p.mb-4 #[strong Ejemplo:] para el caso de la cuenta 110505 cajas se suma el saldo inicial débito con el movimiento débito y se resta el movimiento crédito.
-          p.etiqueta(style='background-color: #D9A171; color: #12263F;') Formule o escriba los saldos iníciales: esto de acuerdo con las instrucciones dadas por el docente.
+        .col-lg-12.px-5
+          .row.justify-content-center
+            .col-lg-4.align-self-center
+              figure.mb-5(data-aos='fade-right')
+                img.mx-auto(src='@/assets/curso/tema1/img20.svg', alt='imagen ambiental', style='width:400px;')
+            .col-lg-8.mb-5
+              p.mb-4 #[strong Formule los saldos finales:] cada saldo debe ser formulado en la columna de la naturaleza de la cuenta.
+              p.mb-4 Sumar las columnas de los saldos iniciales y del movimiento de la naturaleza y, restarles los de la naturaleza contraria.  
+              p.mb-4 #[strong Ejemplo:] para el caso de la cuenta 110505 cajas se suma el saldo inicial débito con el movimiento débito y se resta el movimiento crédito.
+              p.etiqueta(style='background-color: #D9A171; color: #12263F;') Formule o escriba los saldos iníciales: esto de acuerdo con las instrucciones dadas por el docente.
 
 
 
@@ -486,7 +490,7 @@
         .row.justify-content-center
           p.mb-3 #[strong Ejemplo:]
           .col-lg-6
-            a.anexo.mb-4.ms-0(href="https://actualicese.com/cierre-contable-elementos-basicos/?utm_source=actualicese-email-marketing&utm_medium=boletin-diario&utm_campaign=04-02-2016&utm_content=cierre-contable-elementos-basicos&campana" target="_blank")
+            a.anexo.mb-4.ms-0(href="https://actualicese.com/cierre-contable-elementos-basicos/?utm_source=actualicese-email-marketing&utm_medium=boletin-diario&utm_campaign=04-02-2016&utm_content=cierre-contable-elementos-basicos&campana" target="_blank" style='background-color:#fff;')
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto

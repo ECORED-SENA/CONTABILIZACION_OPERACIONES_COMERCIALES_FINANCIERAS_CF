@@ -69,22 +69,6 @@
   background-color: #6595BF
 
 /////////////////////
-.traslape1
-  display: inline-flexbox
-  clear: both
-  .col-z1
-    z-index: 1
-  .col-z2
-    z-index: 2
-  .f-left
-    float: left
-    img
-      margin-left: 11.3%
-  .f-right
-    float: right
-    .contenedor3c
-      margin-left: -11.3%
-
 .contenedor-total
   width: 100%
   display: flex
@@ -93,7 +77,6 @@
 
 .contenedor-especial
   background: #FAFAFA
-  border-radius: 10px
   position: relative
   box-shadow: 0 0 15px rgba(0,0,0,.3)
   align-self: flex-end
@@ -107,7 +90,7 @@
   &--color-primario
     background-color: #CDEDFC
 .br-left
-  margin-left: -4.7rem
+  margin-left: -7rem
   
 
 @media screen and ( min-width: 992px)
@@ -119,9 +102,33 @@
   .contenedor-img
     width: 30%
     z-index: 10
+    
+    
 
-@media screen and ( max-width: 988px)
+@media screen and ( max-width: 992px)
   .fondo1,.fondo-custom, .fondo-custom2
     margin-inline: -1.5rem
   .img-size
     width: 200px
+  .br-left
+    margin-left: 0
+  .contenedor-especial
+    padding: 3rem
+  .contenedor-img
+    width: 0%
+    z-index: -10
+
+  
+@media screen and ( min-width: 1000px)
+  .contenedor-especial
+    padding: 4rem
+  .br-left
+    margin-left: -4rem
+@media screen and ( min-width: 1400px)
+  .contenedor-especial
+    padding-top: 3rem
+    padding-bottom: 3rem
+    padding-left: 8rem
+    padding-right: 3rem
+  .br-left
+    margin-left: -7rem
