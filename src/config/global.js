@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Herramientas TIC en el proceso contable',
     descripcionCurso:
-      'Las herramientas informáticas que ayudan a las organizaciones a maximizar su rendimiento generando eficacia operativa forman parte de su inteligencia del negocio (Dávila, 2005), entre ellas las hojas de cálculo y los software contables.  Este componente permite conocer la estructura, uso e importancia de las hojas de cálculo y el software contable en las organizaciones.',
+      'Las herramientas informáticas que ayudan a las organizaciones a maximizar su rendimiento generando eficacia operativa forman parte de su inteligencia del negocio (Dávila, 2005), entre ellas las hojas de cálculo y los <em>software</em> contables.  Este componente permite conocer la estructura, uso e importancia de las hojas de cálculo y el <em>software</em> contable en las organizaciones.',
     imagenBannerPrincipal: require('@/assets/curso/banner.gif'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner.png'),
   },
@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Fundamentos hojas de cálculo',
+            titulo: 'Fundamentos de las hojas de cálculo',
             hash: 't_1_1',
           },
           {
@@ -47,7 +47,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Kárdex del inventario',
+            titulo: '<em>Kárdex</em> del inventario',
             hash: 't_1_4',
           },
           {
@@ -68,7 +68,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Software contable “SIIGO”',
+        titulo: '<em>software</em> contable “SIIGO”',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -80,19 +80,19 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Ingreso al software',
+            titulo: 'Ingreso al <em>software</em>',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Entorno del software',
+            titulo: 'Entorno del <em>software</em>',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Ingreso de información al software',
+            titulo: 'Ingreso de información al <em>software</em>',
             hash: 't_2_4',
           },
           {
@@ -141,39 +141,39 @@ export default {
   referencias: [
     {
       referencia:
-        'Actualícese. (2016). Cierre contable: elementos básicos. Actulicese.com.',
+        'Actualícese. (2016). Cierre contable: elementos básicos. Actulicese.com. ',
       link:
         'https://actualicese.com/cierre-contable-elementos-basicos/?utm_source=actualicese-email-marketing&utm_medium=boletin-diario&utm_campaign=04-02-2016&utm_content=cierre-contable-elementos-basicos&campana',
     },
     {
       referencia:
-        'Aprender Gratis. (2021). Curso básico de EXCEL |Aprende a usar Excel paso a paso | Video 1 [video]. YouTube',
+        'Aprender Gratis. (2021). Curso básico de EXCEL |Aprende a usar Excel paso a paso | Video 1 [video]. YouTube. ',
       link: 'https://www.youtube.com/watch?v=zv-hH1UKdlg',
     },
     {
       referencia:
-        'Castillo, A., González, E. y López, P. (2012). Conceptos básicos sobre hojas de cálculo [Apuntes]. Universidad de Sonora.',
+        'Castillo, A., González, E. y López, P. (2012). Conceptos básicos sobre hojas de cálculo [Apuntes]. Universidad de Sonora. ',
     },
     {
       referencia:
-        'Centro de computación y desarrollo empresarial. (s.f.). Qué es Excel y para qué usarlo en tu vida diaria. Cecodeem.',
+        'Centro de computación y desarrollo empresarial. (s.f.). Qué es Excel y para qué usarlo en tu vida diaria. Cecodeem. ',
       link:
         'https://cecodeem.com/2505/que-es-excel-y-para-que-usarlo-en-tu-vida-diaria/',
     },
     {
       referencia:
-        'Colaboradores de Wikipedia. (2021). Wikipedia, la enciclopedia libre.',
+        'Colaboradores de Wikipedia. (2021). Wikipedia, la enciclopedia libre. ',
       link: 'https://es.wikipedia.org/',
     },
     {
       referencia:
-        'Dávila, L. F. (2005). Hacia la inteligencia del negocio con Excel 2003. Institución Universitaria Politécnico Grancolombiano.',
+        'Dávila, L. F. (2005). Hacia la inteligencia del negocio con Excel 2003. Institución Universitaria Politécnico Grancolombiano. ',
       link:
         'https://books.google.com.co/books/about/Hacia_la_inteligencia_del_negocio_con_ex.html?id=2zluPQAACAAJ&redir_esc=y',
     },
     {
       referencia:
-        'Oxford University Press. (2021). Léxico. Diccionario de inglés y español.',
+        'Oxford University Press. (2021). Léxico. Diccionario de inglés y español. ',
       link: 'https://www.lexico.com/',
     },
     {
@@ -182,12 +182,12 @@ export default {
       link: 'https://www.youtube.com/watch?v=Lotjwd3uHvo',
     },
     {
-      referencia: 'Siigo. (2021). Divulgación académica. Siigo.',
-      link: 'https://divulgacionacademica.siigo.com|',
+      referencia: 'Siigo. (2021). Divulgación académica. Siigo. ',
+      link: 'https://divulgacionacademica.siigo.com',
     },
     {
       referencia:
-        'SPnet. (2021). TOP 14 programas de contabilidad para Pymes y empresas. softwarepara.net.',
+        'SPnet. (2021). TOP 14 programas de contabilidad para Pymes y empresas. softwarepara.net. ',
       link: 'https://softwarepara.net/contable/',
     },
   ],
@@ -320,15 +320,21 @@ export default {
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ucrHzV53Ut8',
     },
-    {
+    /*{
       texto:
-        'Siigo Colombia. (2020). Seminario: la nómina de Siigo nube [video]. YouTube.',
+      'Siigo Colombia. (2020). Seminario: la nómina de Siigo nube [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=UpoGabOj5dU',
+    },*/
+    {
+      texto:
+        'Siigo Colombia. (2017). Siigo nube - Configuración de la factura de venta [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=FjWFSKgwk0E',
     },
     {
       texto:
-        'Videos Siigo. (2020). Siigo nube - Aprende todo lo que puedes hacer con tu software administrativo [video]. YouTube.',
+        'Videos Siigo. (2020). Siigo nube - Aprende todo lo que puedes hacer con tu <em>software</em> administrativo [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Njn33SBa5SI',
     },
@@ -361,8 +367,13 @@ export default {
       },
       {
         nombre: 'Lina María Guzmán Guasca',
-        cargo: 'Experto temático',
+        cargo: 'Experta temática',
         centro: 'Centro de Comercio - Regional Antioquia',
+      },
+      {
+        nombre: 'Paola Andres Quintero Aguilar',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Bogotá',
       },
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
@@ -398,7 +409,7 @@ export default {
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: ['Blanca Flor Tinoco Torres'],
@@ -406,6 +417,18 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
+      /*{
+        nombre: 'Nombre',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro de Comercio y Servicios - Regional Tolima',
+      },*/
+      /*{
+        nombre: 'Nombre',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },*/
       {
         nombre: 'John Andres Ayala Angarita',
         cargo: 'Desarrollo front-end',
@@ -418,24 +441,18 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
-      /*{
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-      },
       {
-        nombre: 'Nombre',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-      },*/
+      },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

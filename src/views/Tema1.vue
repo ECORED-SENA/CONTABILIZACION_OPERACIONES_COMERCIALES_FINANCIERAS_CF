@@ -8,7 +8,7 @@
         span 1
       h1 Hoja de cálculo “Excel”
 
-    p.mb-4 Existen varios aplicativos basados en el concepto de hojas de cálculo como Microsoft Excel, Google Sheets, OpenCalc, IBM/Lotus 1-2-3, etc. 
+    p.mb-4 Existen varios aplicativos basados en el concepto de hojas de cálculo como <em>Microsoft Excel, Google Sheets, OpenCalc, IBM/Lotus 1-2-3</em>, etc. 
     p.mb-4 Todos estos aplicativos basan su funcionamiento en tablas organizadas, conformadas por filas y columnas, donde se organizan los datos y se definen múltiples operaciones para el procesamiento de los datos, además permiten la creación de múltiples hojas.
     
     h4.mb-4 Conceptos
@@ -19,9 +19,9 @@
             h4 Hoja de cálculo
             p.mb-4 Programa informático que simula una tabla de valores organizada en filas y columnas, y que se emplea entre otras muchas aplicaciones, en tareas de administración financiera (Diccionario Oxford, 2021).
             p.mb-4  Son un tipo de documento que permite manipular datos numéricos y alfanuméricos (Wikipedia, 2015).
-          .tarjeta.color-primario.p-4(titulo="Software contable")
-            h4 Software contable
-            p Es un programa informático destinado a sistematizar y simplificar las tareas de contabilidad de una organización. El software contable registra y procesa las transacciones históricas que se generan en una empresa o actividad productiva (Wikipedia, 2021).
+          .tarjeta.color-primario.p-4(titulo="<em>software</em> contable")
+            h4 <em>software</em> contable
+            p Es un programa informático destinado a sistematizar y simplificar las tareas de contabilidad de una organización. El <em>software</em> contable registra y procesa las transacciones históricas que se generan en una empresa o actividad productiva (Wikipedia, 2021).
           .tarjeta.color-primario.p-4(titulo="Informe contable")
             h4 Informe contable
             p Documento escrito sobre el estado de un tema o conjunto de datos, que explican o refieren los hechos que lo generaron.
@@ -45,7 +45,6 @@
         hr.mt-0.mb-5
 
 
-
     p.mb-5 A continuación, se presenta un ejemplo gráfico, que permite la identificación de los conceptos anteriores.
     .row.justify-content-center
       .col-lg-4
@@ -58,10 +57,11 @@
 
     separador
     #t_1_1.titulo-segundo
-      .h2 1.1 Fundamentos hojas de cálculo 
+      .h2 1.1 Fundamentos de las hojas de cálculo 
 
     p.mb-4 A nivel empresarial las hojas de cálculo constituyen una herramienta fundamental para la organización, análisis, interpretación y simulación de datos. La mayoría de los aplicativos corporativos, incluidos módulos contables, de facturación, de nómina, etc., permiten la exportación de los datos a hojas de cálculo.
-    
+    p.mb-4
+      b A continuación, se muestran las principales funciones de Excel, una de las hojas de cálculo más conocidas:
     .row.mb-5(style='')
       .col-lg-12.fondo-azul
         .contenedor-total.mt-4
@@ -71,55 +71,53 @@
           .contenedor-especial.br-left(data-aos='fade-left')
                 ul.lista-ul
                   li 
-                    i.far.fa-folder-open
+                    i.far.fa-folder-open(style="color:#D9A171;")
                     p.mb-0 Organizar los datos, ya sean numéricos o de texto, en hojas o libros de cálculo.
                   li 
-                    i.far.fa-folder-open
+                    i.far.fa-folder-open(style="color:#D9A171;")
                     p.mb-0 Aplicar formatos para ver los datos en contextos que ayuden en la  toma de decisiones.
                   li 
-                    i.far.fa-folder-open
+                    i.far.fa-folder-open(style="color:#D9A171;")
                     p.mb-0 Ordenar la información según la necesidad.
                   li 
-                    i.far.fa-folder-open
+                    i.far.fa-folder-open(style="color:#D9A171;")
                     p.mb-0 Realizar búsquedas dentro de los datos existentes en la hoja.
                   li 
-                    i.far.fa-folder-open
+                    i.far.fa-folder-open(style="color:#D9A171;")
                     p.mb-0 Analizar automáticamente los apuntes, con formatos prediseñados y que se sugieren de acuerdo con el tipo de datos cargados.
                   li 
-                    i.far.fa-folder-open
+                    i.far.fa-folder-open(style="color:#D9A171;")
                     p.mb-0 Aplicar variadas funciones de cálculos, desde simples sumas hasta operaciones más complejas.
                   li 
-                    i.far.fa-folder-open
+                    i.far.fa-folder-open(style="color:#D9A171;")
                     p.mb-0 Utilizar barras, colores e iconos automatizados para destacar tendencias y patrones en los datos.
                   li 
-                    i.far.fa-folder-open
+                    i.far.fa-folder-open(style="color:#D9A171;")
                     p.mb-0 Graficar los datos con mucha facilidad, ya que Excel puede recomendar los diagramas y gráficos que mejor se ajusten a los posibles análisis.
                   li 
-                    i.far.fa-folder-open
-                    p.mb-0 Crear y compartir las plantillas en la nube, con colaboradores, contactos, interesados etc., facilitando el trabajo en conjunto (Cecodeem, s.f.).
+                    i.far.fa-folder-open(style="color:#D9A171;")
+                    p.mb-0 Crear y compartir las plantillas en la nube, con colaboradores, contactos, interesados, etc., facilitando el trabajo en conjunto (Cecodeem, s.f.).
             
 
 
-    p.mb-4 Para utilizar las funciones anteriores, las hojas de cálculo cuentan con un menú en la parte superior que facilita buscar y explorar según la necesidad de la organización y de los datos que se tenga, como se puede visualizar en la siguiente figura:
+    p.mb-5 Para utilizar las funciones anteriores, las hojas de cálculo cuentan con un menú en la parte superior que facilita buscar y explorar según la necesidad de la organización y de los datos que se tenga, como se puede visualizar en la siguiente figura:
     
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Menú superior de la hoja de cálculo
+          p.mb-0 Menú superior de la hoja de cálculo
       
         figure.mb-5(data-aos='')
           img.mx-auto(src="@/assets/curso/tema1/img3.jpg", alt="Menú superior de la hoja de cálculo", style='')
     
-    p.mb-4 Al final de este menú se presenta la ayuda de búsqueda: ¿qué desea hacer?, esta es una herramienta de apoyo para el autoaprendizaje.
+    p.mb-4 Al final de este menú se presenta la ayuda de búsqueda: #[strong ¿qué desea hacer?], esta es una herramienta de apoyo para el autoaprendizaje.
     .row
       .col-lg-6.p-0.mb-4
           a.anexo.mb-4.mb-lg-0(href="https://youtu.be/zv-hH1UKdlg" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
-              p #[strong Enlace web.] Para ampliar la información sobre usos y funcionalidades de las hojas de cálculo puede revisar el siguiente video
-
-
+              p #[strong Enlace web.] Para ampliar la información sobre usos y funcionalidades de las hojas de cálculo puede revisar el siguiente video.
 
 
     separador
@@ -141,20 +139,20 @@
             p.mb-3 La estructura o el orden de los elementos de una fórmula determinan el resultado final del cálculo. Las fórmulas siguen una sintaxis específica u orden, que incluye un signo igual (=) seguido de los elementos que van a calcularse, los cuales están separados por operadores de cálculo. Cada operando puede ser un valor que no cambie (un valor constante), una referencia de celda o de rango, un rótulo, un nombre o una función de la hoja de cálculo.
             .cajon.color-acento-contenido.p-4.mb-3
               p.mb-0 Las operaciones se realizan de izquierda a derecha y siguiendo el orden de las operaciones: multiplicación y división antes de suma y resta. Puede controlar el orden en que se ejecutará el cálculo, utilizando paréntesis para agrupar las operaciones que deben realizarse en primer lugar, por ejemplo, =5+2*3 el resultado es 11, porque la multiplicación va antes que la suma. La fórmula multiplica 2 por 3 y, a continuación, suma 5 al resultado.
-            p Por el contrario, si se utiliza paréntesis para cambiar la sintaxis en la fórmula = (5+2) *3, primero sumará 5 y 2, a continuación, se multiplica el resultado por 3, obteniéndose 21 como resultado (Castillo, 2012).
+            p Por el contrario, si se utiliza paréntesis para cambiar la sintaxis en la fórmula =(5+2)*3, primero sumará 5 y 2, a continuación, se multiplica el resultado por 3, obteniéndose 21 como resultado (Castillo, 2012).
           .col-md-4.align-self-center.mb-2
             figure(data-aos ='fade-left')
-              img(src='@/assets/curso/tema1/img5.svg', alt='imagen ambiental', style='width: 369px;')
+              img(src='@/assets/curso/tema1/img5.png', alt='imagen ambiental', style='width: 369px;')
               
       .py-3.py-md-4(titulo="Función")
         .row
           .col-md-8.align-self-center
-            p.mb-4 es una fórmula ya elaborada que permite ahorrar tiempo y errores en los cálculos. Para utilizar una función se debe colocar el cursor en una celda vacía y seleccionar la opción de funciones de la barra superior.
+            p.mb-4 Es una fórmula ya elaborada que permite ahorrar tiempo y errores en los cálculos. Para utilizar una función se debe colocar el cursor en una celda vacía y seleccionar la opción de funciones de la barra superior.
             p.mb-0 Las funciones por lo general están agrupadas por categorías: usadas recientemente, todas (todas las categorías), financieras, matemáticas y trigonométricas, estadísticas, etc.
             .bloque-texto-b.color-primario.p-4.px-0
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
-                p.mb-0 Las funciones solicitarán el rango de datos para realizar el cálculo, poniendo por default el rango más cercano, para modificarlo solo debe seleccionar con el mouse las celdas donde están los datos que desea utilizar para la fórmula seleccionada  (Castillo, 2012)
+                p.mb-0 Las funciones solicitarán el rango de datos para realizar el cálculo, poniendo por <em>default</em> el rango más cercano, para modificarlo solo debe seleccionar con el <em>mouse</em> las celdas donde están los datos que desea utilizar para la fórmula seleccionada.
                 i.fas.fa-quote-right
               .bloque-texto-d__autor.pe-5
                 .h5.mb-0  (Castillo, 2012)
@@ -177,22 +175,22 @@
             .tarjeta-numerada.color-primario.p-5
               .tarjeta-numerada__numero
                 .h2 2
-              p.ps-4 En la parte inferior donde dice Hoja 1, dé doble clic y cambie ese nombre por libro diario, como se muestra en la siguiente figura.
+              p.ps-4 En la parte inferior donde dice Hoja 1, dé doble clic y cambie ese nombre por libro diario, como se muestra en la siguiente figura:
               .row.justify-content-center
                 .col-lg-11
                   .titulo-sexto.color-acento-contenido
-                    h5 Pestañas en un libro de Excel
+                    p.mb-0 Pestañas en un libro de Excel
                   figure(data-aos='')
                     img.mx-auto(src='@/assets/curso/tema1/img8.svg', alt='Pestañas en un libro de Excel', style='width: 325px;')
             .tarjeta-numerada.color-primario.p-5
               .tarjeta-numerada__numero
                 .h2 3
               h4.ps-4 Libro diario
-              p.ps-4 En la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda B2, resáltelos en negrita y rellene la celda con color gris, como se muestra en la siguiente figura:
+              p.ps-4 En la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda B2, resáltelos en negrita y rellene la celda con color, como se muestra en la siguiente figura:
               .row.justify-content-center
                 .col-lg-11
                   .titulo-sexto.color-acento-contenido
-                    h5 Formato libro diario en Excel
+                    p.mb-0 Formato libro diario en Excel
                   figure(data-aos='')
                     img.mx-auto(src='@/assets/curso/tema1/img9.jpg', alt='Formato libro diario en Excel', style='width: 500px;')
             .tarjeta-numerada.color-primario.p-5.pb-0(style='border-bottom:0px;')
@@ -202,7 +200,7 @@
               .row.justify-content-center
                 .col-lg-11
                   .titulo-sexto.color-acento-contenido
-                    h5 Formato libro diario en Excel diligenciado
+                    p.mb-0 Formato libro diario en Excel diligenciado
                   figure(data-aos='')
                     img.mx-auto(src='@/assets/curso/tema1/img10.jpg', alt='Formato libro diario en Excel diligenciado', style='width: 470px;')
             
@@ -212,8 +210,8 @@
           
           .col-lg-12
             p.mb-4 En este libro deberá registrar en orden cronológico los hechos económicos, teniendo cuidado de registrar siempre a nivel sub-cuenta o auxiliar (6 dígitos) y escribir el nombre de la cuenta tal como aparece en el PUC y los valores en pesos según corresponda en la columna débito o crédito.
-            .cajon.color-acento-contenido.p-4
-              p.mb-0 Recuerde: se debe verificar que cada registro cumple el principio de partida doble, antes de proceder a escribir el siguiente y no dejar filas entre un registro y otro, ya que esto impedirá el uso de filtros en la hoja para posteriores consultas de los datos.
+            .cajon.color-acento-contenido.p-4(style='background-color: #f9f1eab8')
+              p.mb-0 #[strong Recuerde:] se debe verificar que cada registro cumple el principio de partida doble, antes de proceder a escribir el siguiente y no dejar filas entre un registro y otro, ya que esto impedirá el uso de filtros en la hoja para posteriores consultas de los datos.
 
 
 
@@ -236,7 +234,7 @@
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row
             .col-md-12.mb-4.mb-md-0
-              p En la parte inferior donde encuentra el signo +, dé clic para crear una nueva hoja, luego sobre esa hoja de doble clic y cambie el nombre por libro mayor, como se observa en la siguiente figura:
+              p En la parte inferior donde encuentra el signo +, dé clic para crear una nueva hoja, luego sobre esa hoja dé doble clic y cambie el nombre por Libro Mayor, como se observa en la siguiente figura:
             .row.justify-content-center
               .col-8
                 .titulo-sexto.color-acento-contenido
@@ -248,7 +246,7 @@
           
           .row
             .col-md-12.mb-4.mb-md-0
-              p.text-start #[strong Libro mayor:] en la hoja marcada con este nombre escriba los títulos del libro, comenzando en la celda B2, resáltelos en negrita y rellene la celda con color gris.  Debe quedar acorde con lo que se muestra en la siguiente figura:
+              p.text-start #[strong Libro mayor:] en la hoja marcada con este nombre escriba los títulos del libro, comenzando en la celda B2, resáltelos en negrita y rellene la celda con color.  Debe quedar acorde con lo que se muestra en la siguiente figura:
             .col-md-12.mb-4.mb-md-0
               .titulo-sexto.color-acento-contenido
                 p.mb-0.text-start Formato libro mayor en Excel
@@ -296,16 +294,18 @@
               p En la ventana argumentos de la fórmula, que muestra la siguiente figura llene los campos de la siguiente manera:
               ul.lista-ul
                 li 
-                  i.fas.fa-folder-open
+                  i.fas.fa-folder-open(style="color:#D9A171;")
                   p.mb-0 #[strong El rango_ suma: ] son las celdas que se van a sumar si se cumple la condición.
                 li 
-                  i.fas.fa-folder-open
+                  i.fas.fa-folder-open(style="color:#D9A171;")
                   p.mb-0 #[strong Rango_criterio1: ] es la columna donde se buscará que se cumpla la condición.
                 li 
-                  i.fas.fa-folder-open
+                  i.fas.fa-folder-open(style="color:#D9A171;")
                   p.mb-0 #[strong Criterio1:] es la condición a cumplir.
             .row.justify-content-center
               .col-md-11.mb-4.mb-md-0
+                .titulo-sexto.color-acento-contenido
+                  p.mb-0.text-start Argumentos de la fórmula
                 figure(data-aos='fade-left')
                   img.mx-auto(src='@/assets/curso/tema1/img18.jpg', alt='Argumentos de funcion', style='width: 700px;')
 
@@ -313,15 +313,18 @@
       .col-lg-12.mt-5.mb-5.px-5
         p A continuación, se presenta un ejemplo gráfico, que permite identificar cómo quedan los campos diligenciados:
       .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0.text-start Ejemplo argumentos de la fórmula
         figure.mb-5(data-aos='fade-left')
           img.mx-auto(src='@/assets/curso/tema1/img19.jpg', alt=' Ejemplo argumentos de la fórmula ', style='')
       .col-lg-12.px-5
         p.mb-4 Como se observa (rango_suma) está lleno en el libro diario, al igual que la columna F donde están los débitos y, los sumará si en la columna B del diario (rango_criterio1) la cuenta es igual a 110505 (criterio 1).
-      .col-lg-8
-        .cajon.color-primario.p-4.mb-4(style='background-color: #fff;')
-          p.mb-4 La fórmula quedará así:
-          p
-            b Fórmula=SUMAR.SI.CONJUNTO(Diario!$F$3:$F$457,Diario!$B$3:$B$457,"110505")
+        .row.justify-content-center
+          .col-lg-8
+            .cajon.color-primario.p-4.mb-4(style='background-color: #fff;')
+              p.mb-4 La fórmula quedará así:
+              figure
+                img.mx-auto(src="@/assets/curso/tema1/formula1.svg", alt="formula", style='')
       .col-lg-12.px-5
         p.mb-4 De esta manera se debe formular toda la columna, puede copiar y pegar la fórmula, teniendo cuidado que los rangos se conserven y que el (criterio 1) cambie según sea la cuenta de la fila que está formulando, igualmente tenga en cuenta formular, tanto la columna débito como la de crédito.
       .row
@@ -333,19 +336,19 @@
             .col-lg-8.mb-5
               p.mb-4 #[strong Formule los saldos finales:] cada saldo debe ser formulado en la columna de la naturaleza de la cuenta.
               p.mb-4 Sumar las columnas de los saldos iniciales y del movimiento de la naturaleza y, restarles los de la naturaleza contraria.  
-              p.mb-4 #[strong Ejemplo:] para el caso de la cuenta 110505 cajas se suma el saldo inicial débito con el movimiento débito y se resta el movimiento crédito.
-              p.etiqueta(style='background-color: #D9A171; color: #12263F;') Formule o escriba los saldos iníciales: esto de acuerdo con las instrucciones dadas por el docente.
+              p.mb-4 #[strong Ejemplo:] para el caso de la cuenta 110505 Caja general, se suma el saldo inicial débito con el movimiento débito y se resta el movimiento crédito.
+              p.etiqueta(style='background-color: #d9a17170; color: #12263F;') Formule o escriba los saldos iniciales: esto de acuerdo con las instrucciones dadas por el docente.
 
 
 
 
     separador
     #t_1_4.titulo-segundo
-      .h2 1.4 Kárdex del inventario         
+      .h2 1.4 <em>Kárdex</em> del inventario         
 
 
     p.mb-4 Conocido también como auxiliar de inventarios o almacén, es un libro contable que por cada referencia de productos del inventario muestra cronológicamente sus movimientos de entradas, salidas y saldos, tanto de unidades como de costos unitarios y totales.
-    p.mb-4 A continuación, se describe el proceso para la construcción de hojas de datos, necesarias para alimentar y construir el libro de kárdex en una hoja de cálculo:
+    p.mb-4 A continuación, se describe el proceso para la construcción de hojas de datos, necesarias para alimentar y construir el libro de <em>kárdex</em> en una hoja de cálculo:
 
     .row.justify-content-center.fondo-custom
       .col-lg-12.mt-5.mb-0.px-5
@@ -358,9 +361,9 @@
               li 
                 .lista-ol--cuadro__vineta
                   span #[strong 1]
-                p.mb-0 En la parte inferior donde encuentra el signo + dé clic para crear tres hojas nuevas, luego sobre cada hoja de doble clic y cambie el nombre por artículos, datos y kárdex, como se muestra en la siguiente figura:
+                p.mb-0 En la parte inferior donde encuentra el signo + dé clic para crear tres hojas nuevas, luego sobre cada hoja dé doble clic y cambie el nombre por Artículos, Datos y Kárdex, como se muestra en la siguiente figura:
             .row.justify-content-center
-              .col-lg-11
+              .col-lg-11.mb-2
                 .titulo-sexto.color-acento-contenido.mb-3
                   p.mb-0 Ejemplo nombramiento de las hojas 
                 figure.mb-4(data-aos='')
@@ -370,11 +373,11 @@
               li 
                 .lista-ol--cuadro__vineta
                   span #[strong 2]
-                p.mb-0 #[strong Artículos:] en la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda A1, resáltelos en negrita y rellene la celda con color gris.  Debe quedar como se muestra en la siguiente figura:
+                p.mb-0 #[strong Artículos:] en la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda A1, resáltelos en negrita y rellene la celda con color.  Debe quedar como se muestra en la siguiente figura:
             .row.justify-content-center
-              .col-lg-11
+              .col-lg-11.mb-2
                 .titulo-sexto.color-acento-contenido.mb-3
-                  p.mb-0 Encabezados hoja para artículos del kárdex
+                  p.mb-0 Encabezados hoja para artículos del <em>Kárdex</em>
                 figure.mb-4(data-aos='')
                   img.mx-auto(src='@/assets/curso/tema1/img23.svg', alt='Encabezados hoja para artículos del kárdex', style='width:750px;')
             
@@ -382,11 +385,11 @@
               li 
                 .lista-ol--cuadro__vineta
                   span #[strong 3]
-                p.mb-0 #[strong Datos:] en la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda B2, resáltelos en negrita y rellene la celda con color gris.  Observe el ejemplo guía en la siguiente figura:
+                p.mb-0 #[strong Datos:] en la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda B2, resáltelos en negrita y rellene la celda con color.  Observe el ejemplo guía en la siguiente figura:
             .row.justify-content-center
               .col-lg-11
                 .titulo-sexto.color-acento-contenido.mb-3
-                  p.mb-0 Encabezados hoja de datos del Kárdex
+                  p.mb-0 Encabezados hoja de datos del <em>Kárdex</em>
                 figure.mb-4(data-aos='')
                   img.mx-auto(src='@/assets/curso/tema1/img24.svg', alt='Encabezados hoja de datos del Kárdex', style='width:750px;')
                 p.mb-3 Se formulan las columnas: total compra y total venta, las demás se alimentan según los hechos económicos de la empresa.  La siguiente figura le ayuda a identificar estas columnas:
@@ -413,11 +416,13 @@
               li 
                 .lista-ol--cuadro__vineta
                   span #[strong 4]
-                p.mb-0 #[strong Kárdex:] en la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda B2, resáltelos en negrita y rellene la celda con color gris.  Use como guía la siguiente figura:
+                p.mb-0 
+                  b <em>Kárdex:</em> 
+                  b-none en la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda B2, resáltelos en negrita y rellene la celda con color.  Use como guía la siguiente figura:
             .row.justify-content-center
               .col-lg-11
                 .titulo-sexto.color-acento-contenido.mb-3
-                  p.mb-0 Encabezados hoja de kárdex
+                  p.mb-0 Encabezados hoja de <em>kárdex</em>
                 figure.mb-4(data-aos='')
                   img.mx-auto(src='@/assets/curso/tema1/img27.svg', alt='Encabezados hoja de kárdex ', style='width:550px;')
                 p.mb-5 Tenga presente que en esta hoja se formulan todas las columnas.
@@ -499,13 +504,13 @@
             p.mb-3 Para construir el comprobante contable de cierre en Excel proceda como en los puntos anteriores, creando una nueva hoja como se muestra en la siguiente figura:
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 Comprobante de cierre
-            figure.mb-4(data-aos='')
+            figure.mb-5(data-aos='')
               img.mx-auto(src='@/assets/curso/tema1/img32.svg', alt='Comprobante de cierre', style='width:505px;')
             
-            p.mb-3 Ahora, en la hoja denominada comprobante de cierre, creé los encabezados sugeridos en la siguiente figura:
+            p.mb-3 Ahora, en la hoja denominada comprobante de cierre, cree los encabezados sugeridos en la siguiente figura:
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 Encabezados hoja comprobante de cierre
-            figure.mb-4(data-aos='')
+            figure.mb-5(data-aos='')
               img.mx-auto(src='@/assets/curso/tema1/img33.svg', alt='Encabezados hoja comprobante de cierre', style='width:445px;')
             
             p.mb-5 Por último, registre los asientos de cierre tal como lo haría en la hoja de libro diario.
@@ -529,7 +534,7 @@
           li 
             .lista-ol--cuadro__vineta
               span #[strong 1]
-            p.mb-0 Para construirlo inicie con la creación de una nueva hoja con el nombre: balance de prueba ajustado, como se observa en la siguiente figura:
+            p.mb-0 Para construirlo inicie con la creación de una nueva hoja con el nombre: Balance de prueba ajustado, como se observa en la siguiente figura:
         .row.justify-content-center
           .col-lg-11
             .titulo-sexto.color-acento-contenido.mb-3
@@ -556,23 +561,25 @@
             p.mb-0 Formule todas las columnas, a continuación, encontrará las fórmulas, use los procedimientos aprendidos para construirlas directamente en la hoja o copie y pegue cada fórmula en la columna sugerida:
         .row.justify-content-center
           .col-lg-11
-            p.mb-0 Código:  =+'Libro Mayor'!B5
-            p.mb-4 Descripción de la cuenta:  ==+'Libro Mayor'!C5
+            p.mb-0 #[strong Código:]  =+'Libro Mayor'!B5
+            p.mb-4 #[strong Descripción de la cuenta:]  =+'Libro Mayor'!C5
             
             p.mb-0 #[strong Saldos iniciales:] corresponden a los valores de la columna de los saldos finales del libro mayor.
-            p.mb-0 Débito: =+'Libro Mayor'!H5
-            p.mb-4 Crédito =+'Libro Mayor'!I5
+            p.mb-0 #[strong Débito:] =+'Libro Mayor'!H5
+            p.mb-4 #[strong Crédito:] =+'Libro Mayor'!I5
 
             p.mb-3 #[strong Movimiento:] valores del comprobante de ajuste, utilice de nuevo la fórmula sumar.si.conjunto, que se aplicó en el libro mayor.
             
             .cajon.color-secundario.p-4.mb-3
-              p.mb-4 La fórmula quedará así:
-              p.mb-0 #[strong Fórmula=SUMAR.SI.CONJUNTO(Mayor!$F$3:$F$457,Mayor!$B$3:$B$457,"110505")] 
+              p.mb-4 La fórmula quedará así: 
+              figure
+                img.mx-auto(src="@/assets/curso/tema1/formula2.svg", alt="formula", style='')
+              
         
             p.mb-3 #[strong Saldos finales:] sumar las columnas de los saldos iniciales y del movimiento de la naturaleza de la cuenta y restarles los de la naturaleza contraria.
         
             .cajon.color-acento-contenido.p-4.mb-3
-              p.mb-0 #[strong Ejemplo:] para el caso de la cuenta 110505 cajas se suma el saldo inicial débito con el movimiento débito y se resta el movimiento crédito.
+              p.mb-0 #[strong Ejemplo:] para el caso de la cuenta 110505 Caja general, se suma el saldo inicial débito con el movimiento débito y se resta el movimiento crédito.
         
         
         
