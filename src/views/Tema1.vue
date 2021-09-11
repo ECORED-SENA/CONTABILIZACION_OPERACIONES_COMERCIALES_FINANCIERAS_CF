@@ -19,8 +19,8 @@
             h4 Hoja de cálculo
             p.mb-4 Programa informático que simula una tabla de valores organizada en filas y columnas, y que se emplea entre otras muchas aplicaciones, en tareas de administración financiera (Diccionario Oxford, 2021).
             p.mb-4  Son un tipo de documento que permite manipular datos numéricos y alfanuméricos (Wikipedia, 2015).
-          .tarjeta.color-primario.p-4(titulo="<em>software</em> contable")
-            h4 <em>software</em> contable
+          .tarjeta.color-primario.p-4(titulo="Software contable")
+            h4 <em>Software</em> contable
             p Es un programa informático destinado a sistematizar y simplificar las tareas de contabilidad de una organización. El <em>software</em> contable registra y procesa las transacciones históricas que se generan en una empresa o actividad productiva (Wikipedia, 2021).
           .tarjeta.color-primario.p-4(titulo="Informe contable")
             h4 Informe contable
@@ -155,7 +155,7 @@
                 p.mb-0 Las funciones solicitarán el rango de datos para realizar el cálculo, poniendo por <em>default</em> el rango más cercano, para modificarlo solo debe seleccionar con el <em>mouse</em> las celdas donde están los datos que desea utilizar para la fórmula seleccionada.
                 i.fas.fa-quote-right
               .bloque-texto-d__autor.pe-5
-                .h5.mb-0  (Castillo, 2012)
+                .h5.mb-0  -(Castillo, 2012).
 
           .col-md-4.mb-4.mb-md-0
             figure(data-aos='fade-left')
@@ -292,13 +292,13 @@
           .row
             .col-md-12.mb-4.mb-md-0
               p En la ventana argumentos de la fórmula, que muestra la siguiente figura llene los campos de la siguiente manera:
-              ul.lista-ul
+              ul.lista-ul(style='margin-bottom:30px;')
                 li 
                   i.fas.fa-folder-open(style="color:#D9A171;")
-                  p.mb-0 #[strong El rango_ suma: ] son las celdas que se van a sumar si se cumple la condición.
+                  p.mb-0 #[strong El Rango_suma: ] son las celdas que se van a sumar si se cumple la condición.
                 li 
                   i.fas.fa-folder-open(style="color:#D9A171;")
-                  p.mb-0 #[strong Rango_criterio1: ] es la columna donde se buscará que se cumpla la condición.
+                  p.mb-0 #[strong Rango_criterios1: ] es la columna donde se buscará que se cumpla la condición.
                 li 
                   i.fas.fa-folder-open(style="color:#D9A171;")
                   p.mb-0 #[strong Criterio1:] es la condición a cumplir.
@@ -361,12 +361,12 @@
               li 
                 .lista-ol--cuadro__vineta
                   span #[strong 1]
-                p.mb-0 En la parte inferior donde encuentra el signo + dé clic para crear tres hojas nuevas, luego sobre cada hoja dé doble clic y cambie el nombre por Artículos, Datos y Kárdex, como se muestra en la siguiente figura:
+                p.mb-0 En la parte inferior donde encuentra el signo + dé clic para crear tres hojas nuevas, luego sobre cada hoja dé doble clic y cambie el nombre por Artículos, Datos y <em>Kárdex</em>, como se muestra en la siguiente figura:
             .row.justify-content-center
               .col-lg-11.mb-2
                 .titulo-sexto.color-acento-contenido.mb-3
                   p.mb-0 Ejemplo nombramiento de las hojas 
-                figure.mb-4(data-aos='')
+                figure.mb-5(data-aos='')
                   img.mx-auto(src='@/assets/curso/tema1/img22.svg', alt='Ejemplo nombramiento de las hojas', style='width:750px;')
 
             ol.lista-ol--cuadro
@@ -378,7 +378,7 @@
               .col-lg-11.mb-2
                 .titulo-sexto.color-acento-contenido.mb-3
                   p.mb-0 Encabezados hoja para artículos del <em>Kárdex</em>
-                figure.mb-4(data-aos='')
+                figure.mb-5(data-aos='')
                   img.mx-auto(src='@/assets/curso/tema1/img23.svg', alt='Encabezados hoja para artículos del kárdex', style='width:750px;')
             
             ol.lista-ol--cuadro
@@ -435,16 +435,22 @@
             .row.justify-content-center
               .col-lg-11
                 p.mb-0 #[strong Código:] =ARTICULOS! B2
-                p.mb-0 #[strong Artículo:]  =ARTICULOS! A2
-                p.mb-4 #[strong Vr. Unitario:] =SI.ERROR(SUMAR.SI. CONJUNTO(DATOS!J:J;DATOS!C:C;A7)/D7;"")
+                p.mb-1 #[strong Artículo:]  =ARTICULOS! A2
+                figure.mb-4(data-aos='')
+                  img(src='@/assets/curso/tema1/img-txt1.svg', alt='formula', style='width: 550px;')
+                //p.mb-4 #[strong Vr. Unitario:] =SI.ERROR(SUMAR.SI. CONJUNTO(DATOS!J:J;DATOS!C:C;A7)/D7;"")
 
                 p.mb-0 #[strong Entradas]
-                p.mb-4 Cantidad: =SI.ERROR(SUMAR.SI.CONJUNTO(DATOS!$G$2:$G$52;DATOS!$C$2:$C$52;A7);””)
+                figure.mb-4(data-aos='')
+                  img(src='@/assets/curso/tema1/img-txt2.svg', alt='formula', style='width: 650px;')
+                //p.mb-4 Cantidad: =SI.ERROR(SUMAR.SI.CONJUNTO(DATOS!$G$2:$G$52;DATOS!$C$2:$C$52;A7);””)
                 
                 p.mb-4 Valor: =SI.ERROR(+C7*D7;"")
                 
                 p.mb-0 #[strong Salidas]
-                p.mb-4 Cantidad: =SI.ERROR(SUMAR.SI.CONJUNTO(DATOS!$H$2:$H$52;DATOS!$C$2:$C$52;A7);"")
+                figure.mb-4(data-aos='')
+                  img(src='@/assets/curso/tema1/img-txt3.svg', alt='formula', style='width: 650px;')
+                //p.mb-4 Cantidad: =SI.ERROR(SUMAR.SI.CONJUNTO(DATOS!$H$2:$H$52;DATOS!$C$2:$C$52;A7);"")
 
                 p.mb-4 Valor: =SI.ERROR(+C7*F7;"")
 

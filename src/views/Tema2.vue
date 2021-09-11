@@ -94,7 +94,7 @@
             img(src="@/assets/template/icono-link-custom.svg" style='border-radius: 50px;')
           .anexo__texto.text-white
             p.mb-0 
-              b Siigo · <em>software</em> contable y administrativo
+              b Siigo · <em>Software</em> contable y administrativo
       .col-lg-3.col-md-auto(data-aos='fade-right')
         a.anexo.anexo-custom.mb-4.mb-lg-4(href="http://www.softland.com.co/" target="_blank" style="")
           .anexo__icono

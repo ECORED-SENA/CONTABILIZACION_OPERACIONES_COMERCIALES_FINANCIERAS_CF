@@ -68,7 +68,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '<em>software</em> contable “SIIGO”',
+        titulo: '<em>Software</em> contable “SIIGO”',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -167,18 +167,18 @@ export default {
     },
     {
       referencia:
-        'Dávila, L. F. (2005). Hacia la inteligencia del negocio con Excel 2003. Institución Universitaria Politécnico Grancolombiano. ',
+        'Dávila, L. F. (2005). Hacia la inteligencia del negocio con Excel 2003. Institución Universitaria Politécnico Grancolombiano . ',
       link:
         'https://books.google.com.co/books/about/Hacia_la_inteligencia_del_negocio_con_ex.html?id=2zluPQAACAAJ&redir_esc=y',
     },
     {
       referencia:
-        'Oxford University Press. (2021). Léxico. Diccionario de inglés y español. ',
+        'Oxford University Press. (2021). Léxico. Diccionario de inglés y español . ',
       link: 'https://www.lexico.com/',
     },
     {
       referencia:
-        'Salazar, F. (2020). Ingreso y navegación SIIGO nube [video]. YouTube.',
+        'Salazar, F. (2020). Ingreso y navegación SIIGO nube [video]. YouTube. ',
       link: 'https://www.youtube.com/watch?v=Lotjwd3uHvo',
     },
     {
@@ -363,7 +363,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Lina María Guzmán Guasca',
@@ -371,7 +371,7 @@ export default {
         centro: 'Centro de Comercio - Regional Antioquia',
       },
       {
-        nombre: 'Paola Andres Quintero Aguilar',
+        nombre: 'Paola Andrea Quintero Aguilar',
         cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial - Regional Bogotá',
       },
@@ -404,7 +404,7 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
@@ -415,7 +415,7 @@ export default {
         nombre: ['Blanca Flor Tinoco Torres'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       /*{
         nombre: 'Nombre',
@@ -427,25 +427,25 @@ export default {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },*/
       {
         nombre: 'John Andres Ayala Angarita',
         cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Andrés Mauricio Santaella Ochoa',
         cargo: 'Soporte front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
