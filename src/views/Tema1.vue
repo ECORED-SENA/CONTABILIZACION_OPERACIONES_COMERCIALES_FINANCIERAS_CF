@@ -192,7 +192,7 @@
                   .titulo-sexto.color-acento-contenido
                     p.mb-0 Formato libro diario en Excel
                   figure(data-aos='')
-                    img.mx-auto(src='@/assets/curso/tema1/img9.jpg', alt='Formato libro diario en Excel', style='width: 500px;')
+                    img.mx-auto(src='@/assets/curso/tema1/img.png', alt='Formato libro diario en Excel', style='width: 500px;')
             .tarjeta-numerada.color-primario.p-5.pb-0(style='border-bottom:0px;')
               .tarjeta-numerada__numero
                 .h2 4
