@@ -155,7 +155,7 @@
                 p.mb-0 Las funciones solicitarán el rango de datos para realizar el cálculo, poniendo por <em>default</em> el rango más cercano, para modificarlo solo debe seleccionar con el <em>mouse</em> las celdas donde están los datos que desea utilizar para la fórmula seleccionada.
                 i.fas.fa-quote-right
               .bloque-texto-d__autor.pe-5
-                .h5.mb-0  -(Castillo, 2012).
+                .h5.mb-0  - (Castillo, 2012).
 
           .col-md-4.mb-4.mb-md-0
             figure(data-aos='fade-left')

@@ -167,13 +167,13 @@ export default {
     },
     {
       referencia:
-        'Dávila, L. F. (2005). Hacia la inteligencia del negocio con Excel 2003. Institución Universitaria Politécnico Grancolombiano . ',
+        'Dávila, L. F. (2005). Hacia la inteligencia del negocio con Excel 2003. Institución Universitaria Politécnico Grancolombiano. ',
       link:
         'https://books.google.com.co/books/about/Hacia_la_inteligencia_del_negocio_con_ex.html?id=2zluPQAACAAJ&redir_esc=y',
     },
     {
       referencia:
-        'Oxford University Press. (2021). Léxico. Diccionario de inglés y español . ',
+        'Oxford University Press. (2021). Léxico. Diccionario de inglés y español. ',
       link: 'https://www.lexico.com/',
     },
     {
