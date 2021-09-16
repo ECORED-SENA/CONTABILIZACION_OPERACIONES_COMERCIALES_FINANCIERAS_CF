@@ -417,8 +417,8 @@
                 .lista-ol--cuadro__vineta
                   span #[strong 4]
                 p.mb-0 
-                  b <em>Kárdex:</em> 
-                  b-none en la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda B2, resáltelos en negrita y rellene la celda con color.  Use como guía la siguiente figura:
+                  b <em>Kárdex: </em> 
+                  b-none  en la hoja marcada con este nombre escriba los títulos del libro comenzando en la celda B2, resáltelos en negrita y rellene la celda con color.  Use como guía la siguiente figura:
             .row.justify-content-center
               .col-lg-11
                 .titulo-sexto.color-acento-contenido.mb-3
