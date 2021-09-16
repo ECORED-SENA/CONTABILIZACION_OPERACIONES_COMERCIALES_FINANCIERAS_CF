@@ -162,8 +162,9 @@ export default {
     },
     {
       referencia:
-        'Colaboradores de Wikipedia. (2021). Wikipedia, la enciclopedia libre. ',
-      link: 'https://es.wikipedia.org/',
+        'Colaboradores de los proyectos Wikimedia. (2021, July 02). Software contable - Wikipedia, la enciclopedia libre. ',
+      link:
+        'https://es.wikipedia.org/w/index.php?title=Software_contable&oldid=136734627',
     },
     {
       referencia:
@@ -173,8 +174,15 @@ export default {
     },
     {
       referencia:
-        'Oxford University Press. (2021). Léxico. Diccionario de inglés y español. ',
-      link: 'https://www.lexico.com/',
+        'Hoja de cálculo. Oxford University Press. (2021). Léxico. Diccionario de inglés y español. ',
+      link:
+        'https://dictionary.cambridge.org/es/diccionario/espanol-ingles/hoja?q=hoja+de+calculo',
+    },
+    {
+      referencia:
+        'Colaboradores de los proyectos Wikimedia. (2021, September 02). Hoja de cálculo - Wikipedia, la enciclopedia libre. ',
+      link:
+        'https://es.wikipedia.org/w/index.php?title=Hoja_de_c%C3%A1lculo&oldid=138088357',
     },
     {
       referencia:
