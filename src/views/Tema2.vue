@@ -189,7 +189,7 @@
           .anexo__texto.text-white
             p.mb-0 #[strong https://divulgacionacademica.siigo.com/]
     
-    p.mb-5 En la última opción, debe ir a accesos y luego a iniciar sesión SENA.  Por cualquiera de las tres opciones llegará al pantallazo de ingreso, que se observa en la siguiente figura:
+    p.mb-5 En la última opción, debe ir a "Accesos" y luego a "Iniciar sesión - SENA".  Por cualquiera de las tres opciones llegará al pantallazo de ingreso, que se observa en la siguiente figura:
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido
@@ -219,14 +219,14 @@
     #t_2_3.titulo-segundo
       .h2 2.3  Entorno del <em>software</em> 
 
-    p.mb-4 Al ingresar a SIIGO nube encontrará la pantalla que se muestra en la siguiente figura, donde podrá identificar los datos de su instructor, los propios y los del curso. Observe la figura para identificar el entorno de trabajo del <em>software</em>.
+    p.mb-4 Al ingresar a "SIIGO nube" encontrará la pantalla que se muestra en la siguiente figura, donde podrá identificar los datos de su instructor, los propios y los del curso. Observe la figura para identificar el entorno de trabajo del <em>software</em>.
 
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           p.mb-0 Pantalla de inicio en la herramienta SIIGO
         figure.mb-5
-          img(src='@/assets/template/img-placeholder.svg', alt='')
+          img(src='@/assets/curso/tema2/img13.jpg', alt=' imagen pantalla de inicio en la herramienta SIIGO')
     
     .row.justify-content-center
       .col-lg-4
@@ -234,7 +234,7 @@
           img(src='@/assets/curso/tema2/img9.svg', alt='imagen ambiental', style='width:400px;')
       .col-lg-8.align-self-center
         h4.mb-4 Los Menús de SIIGO nube
-        p.mb-4 El menú +Crear le permite en cualquier momento acceder a los archivos base de terceros, comprobantes, documentos, procesos, etc.,  y en el menú Ayuda encuentra videos y material para el aprendizaje del <em>software</em>, #[strong identifique estos menús en la parte superior derecha.]
+        p.mb-4 El menú "+Crear" le permite en cualquier momento acceder a los archivos base de terceros, comprobantes, documentos, procesos, etc.,  y en el menú "Ayuda" encuentra videos y material para el aprendizaje del <em>software</em>, #[strong identifique estos menús en la parte superior derecha.]
         p.mb-4 En el menú lateral izquierdo, se encuentran las opciones que se muestran en la siguiente figura:
 
 
@@ -266,29 +266,55 @@
     #t_2_4.titulo-segundo
       .h2 2.4 Ingreso de información al <em>software</em>
 
-    p.mb-4 En SIIGO nube existen dos alternativas para el ingreso de información: desde el menú Transacciones y desde el menú Contabilidad.  Conozca las diferencias entre ambas alternativas mediante la siguiente figura:
+    p.mb-4 En "SIIGO nube" existen dos alternativas para el ingreso de información: desde el menú "Transacciones" y desde el menú "Contabilidad".  Conozca las diferencias entre ambas alternativas mediante la siguiente figura:
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           p.mb-0 Alternativas de ingreso en la herramienta SIIGO
-        figure.mb-4(data-aos="fñip-left")
+        figure.mb-4(data-aos="flip-left")
           img.mx-auto(src="@/assets/curso/tema2/img12.svg" alt='Alternativas de ingreso en la herramienta SIIGO' style='width:800px;')
 
-    h3.mb-4  Mediante módulo de Transacciones
-    p.mb-4 Para aprender a ingresar gastos en SIIGO nube mediante el módulo Transacciones siga estos pasos:
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.mb-3
+      .col-lg-10
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-3.mb-4.mb-lg-0
+              figure.mb-4
+                img.mx-auto(src="@/assets/curso/tema2/img14.svg" alt='imagen ambiental' style='width:215px;')
+            .col-lg-9
+              .bloque-texto-a__texto.p-4
+                h4.mb-4 Mediante módulo de "Transacciones"
+                p.mb-4 Para aprender a ingresar gastos en "SIIGO nube" mediante el módulo "Transacciones" siga estos pasos:
+                .row
+                  .col-auto
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/Ingreso_Gastos_SIIGO.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg")
+                      .anexo__texto
+                        p #[strong Anexo.] Ingreso_Gastos_SIIGO
     
     
-    h3.mb-4 Mediante módulo de Contabilidad
-    p.mb-4 Para aprender a ingresar Transacciones mediante el módulo Contabilidad te invitamos a seguir estos pasos:
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-a.color-primario.reverse.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-9
+              .bloque-texto-a__texto.p-4
+                h4.mb-4 Mediante módulo de "Contabilidad"
+                p.mb-4 Para aprender a ingresar transacciones mediante el módulo "Contabilidad" te invitamos a seguir estos pasos:
+                .row
+                  .col-auto
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/Ingreso_modulo_contabilidad.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg")
+                      .anexo__texto
+                        p #[strong Anexo.] Ingreso_módulo_contabilidad
+            .col-lg-3.mb-4.mb-lg-0
+              figure.mb-4
+                img.mx-auto(src="@/assets/curso/tema2/img15.svg" alt='imagen ambiental' style='width:215px;')
     
-
-
+    
+    
     
     
     separador
@@ -296,12 +322,26 @@
       .h2 2.5 Generación de reportes
 
 
-    p.mb-4 Para aprender a consultar y  generar los diversos informes contables a través de SIIGO nube siga estos pasos:
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-3.mb-4.mb-lg-0
+              figure.mb-4
+                img.mx-auto(src="@/assets/curso/tema2/img16.svg" alt='imagen ambiental' style='width:215px;')
+            .col-lg-9
+              .bloque-texto-a__texto.p-4
+                h4.mb-4 Generación de reportes
+                p.mb-4 Para aprender a consultar y  generar los diversos informes contables a través de "SIIGO nube" siga estos pasos:
+                .row
+                  .col-auto
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/Generación_Reportes.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg")
+                      .anexo__texto
+                        p #[strong Anexo.] Generación_Reportes
+    
+    
 
 
 

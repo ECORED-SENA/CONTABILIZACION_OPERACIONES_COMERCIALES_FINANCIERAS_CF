@@ -170,12 +170,12 @@
             .tarjeta-numerada.color-primario.p-5
               .tarjeta-numerada__numero
                 .h2 1
-              p.ps-4.mb-0 Abra un documento nuevo de Excel, para ello diríjase al menú superior, dé clic en la opción archivo y elija nuevo.
+              p.ps-4.mb-0 Abra un documento nuevo de Excel, para ello diríjase al menú superior, dé clic en la opción "Archivo" y elija "Nuevo".
             
             .tarjeta-numerada.color-primario.p-5
               .tarjeta-numerada__numero
                 .h2 2
-              p.ps-4 En la parte inferior donde dice Hoja 1, dé doble clic y cambie ese nombre por libro diario, como se muestra en la siguiente figura:
+              p.ps-4 En la parte inferior donde dice "Hoja1", dé doble clic y cambie ese nombre por "Libro diario", como se muestra en la siguiente figura:
               .row.justify-content-center
                 .col-lg-11
                   .titulo-sexto.color-acento-contenido
@@ -196,7 +196,7 @@
             .tarjeta-numerada.color-primario.p-5.pb-0(style='border-bottom:0px;')
               .tarjeta-numerada__numero
                 .h2 4
-              p.ps-4 En la hoja del libro diario registre la operación de cada punto, un registro seguido del siguiente e identificando en la columna A qué punto del taller. Según se observa en el ejemplo ilustrado en la siguiente figura:
+              p.ps-4 En la hoja del "Libro diario" registre la operación de cada punto, un registro seguido del siguiente e identificando en la columna A qué punto del taller. Según se observa en el ejemplo ilustrado en la siguiente figura:
               .row.justify-content-center
                 .col-lg-11
                   .titulo-sexto.color-acento-contenido
@@ -234,7 +234,7 @@
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row
             .col-md-12.mb-4.mb-md-0
-              p En la parte inferior donde encuentra el signo +, dé clic para crear una nueva hoja, luego sobre esa hoja dé doble clic y cambie el nombre por Libro Mayor, como se observa en la siguiente figura:
+              p En la parte inferior donde encuentra el signo +, dé clic para crear una nueva hoja, luego sobre esa hoja dé doble clic y cambie el nombre por "Libro Mayor", como se observa en la siguiente figura:
             .row.justify-content-center
               .col-8
                 .titulo-sexto.color-acento-contenido
@@ -254,7 +254,7 @@
                 img.mx-auto(src='@/assets/curso/tema1/img13.jpg', alt='Formato libro mayor en Excel', style='width: 800px;')
           .row
             .col-md-12.mb-4.mb-md-0
-              p Copie y pegue las cuentas y sus nombres del libro diario al libro mayor en la columna cuenta y, luego ordene de manera ascendente, siga los pasos sugeridos en la siguiente figura:
+              p Copie y pegue las cuentas y sus nombres del "Libro diario" al "Libro mayor" en la columna "Cuenta" y, luego ordene de manera ascendente, siga los pasos sugeridos en la siguiente figura:
             .row.justify-content-center
               .col-md-8.mb-4.mb-md-0
                 .titulo-sexto.color-acento-contenido
@@ -263,7 +263,7 @@
                   img.mx-auto(src='@/assets/curso/tema1/img14.png', alt='Ordenar libro mayor', style='width: 500px;')
           .row
             .col-md-12.mb-4.mb-md-0
-              p.text-start Elimine los duplicados de la columna cuentas, use como guía la siguiente figura:
+              p.text-start Elimine los duplicados de la columna "Cuenta", use como guía la siguiente figura:
             .row.justify-content-center
               .col-md-11.mb-4.mb-md-0
                 .titulo-sexto.color-acento-contenido
@@ -273,16 +273,16 @@
           
           .row
             .col-md-12.mb-4.mb-md-0
-              p Ubique la primera celda del movimiento débito como lo muestra la siguiente figura:
+              p Ubique la primera celda del "Movimiento débito" como lo muestra la siguiente figura:
             .row.justify-content-center
               .col-md-8.mb-4.mb-md-0
                 .titulo-sexto.color-acento-contenido
-                  p.mb-0 Primera celda del movimiento débito
+                  p.mb-0 Primera celda del "Movimiento débito"
                 figure(data-aos='fade-left')
                   img.mx-auto(src='@/assets/curso/tema1/img16.jpg', alt='Primera celda del movimiento débito', style='width: 540px;')
           .row
             .col-md-12.mb-4.mb-md-0
-              p.text-start Formule la mayorización, para ello diríjase al  menú de fórmulas, elija el ítem fórmulas matemáticas y trigonométricas y busque la fórmula “sumar.si.conjunto”, use como guía la siguiente figura:
+              p.text-start Formule la mayorización, para ello diríjase al  menú de "Fórmulas", elija el ítem "Matemáticas y trigonométricas" y busque la fórmula “sumar.si.conjunto”, use como guía la siguiente figura:
             .row.justify-content-center
               .col-md-8.mb-4.mb-md-0
                 .titulo-sexto.color-acento-contenido
@@ -291,7 +291,7 @@
                   img.mx-auto(src='@/assets/curso/tema1/img17.jpg', alt='Funciones matemáticas y trigonométricas', style='width: 470px;')
           .row
             .col-md-12.mb-4.mb-md-0
-              p En la ventana argumentos de la fórmula, que muestra la siguiente figura llene los campos de la siguiente manera:
+              p En la ventana "Argumentos de la función", que muestra la siguiente figura llene los campos de la siguiente manera:
               ul.lista-ul(style='margin-bottom:30px;')
                 li 
                   i.fas.fa-folder-open(style="color:#D9A171;")
@@ -318,7 +318,7 @@
         figure.mb-5(data-aos='fade-left')
           img.mx-auto(src='@/assets/curso/tema1/img19.jpg', alt=' Ejemplo argumentos de la fórmula ', style='')
       .col-lg-12.px-5
-        p.mb-4 Como se observa (rango_suma) está lleno en el libro diario, al igual que la columna F donde están los débitos y, los sumará si en la columna B del diario (rango_criterio1) la cuenta es igual a 110505 (criterio 1).
+        p.mb-4 Como se observa "(Rango_suma)" está lleno en el libro diario, al igual que la columna F donde están los débitos y, los sumará si en la columna B del diario "(Rango_criterio1)" la cuenta es igual a 110505 "(Criterio1)".
         .row.justify-content-center
           .col-lg-8
             .cajon.color-primario.p-4.mb-4(style='background-color: #fff;')
@@ -326,7 +326,7 @@
               figure
                 img.mx-auto(src="@/assets/curso/tema1/formula1.svg", alt="formula", style='')
       .col-lg-12.px-5
-        p.mb-4 De esta manera se debe formular toda la columna, puede copiar y pegar la fórmula, teniendo cuidado que los rangos se conserven y que el (criterio 1) cambie según sea la cuenta de la fila que está formulando, igualmente tenga en cuenta formular, tanto la columna débito como la de crédito.
+        p.mb-4 De esta manera se debe formular toda la columna, puede copiar y pegar la fórmula, teniendo cuidado que los rangos se conserven y que el "(Criterio1)" cambie según sea la cuenta de la fila que está formulando, igualmente tenga en cuenta formular, tanto la columna "Débito" como la de "Crédito".
       .row
         .col-lg-12.px-5
           .row.justify-content-center
@@ -336,7 +336,7 @@
             .col-lg-8.mb-5
               p.mb-4 #[strong Formule los saldos finales:] cada saldo debe ser formulado en la columna de la naturaleza de la cuenta.
               p.mb-4 Sumar las columnas de los saldos iniciales y del movimiento de la naturaleza y, restarles los de la naturaleza contraria.  
-              p.mb-4 #[strong Ejemplo:] para el caso de la cuenta 110505 Caja general, se suma el saldo inicial débito con el movimiento débito y se resta el movimiento crédito.
+              p.mb-4 #[strong Ejemplo:] para el caso de la cuenta 110505 "Caja general", se suma el saldo inicial débito con el movimiento débito y se resta el movimiento crédito.
               p.etiqueta(style='background-color: #d9a17170; color: #12263F;') Formule o escriba los saldos iniciales: esto de acuerdo con las instrucciones dadas por el docente.
 
 
@@ -361,7 +361,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span #[strong 1]
-                p.mb-0 En la parte inferior donde encuentra el signo + dé clic para crear tres hojas nuevas, luego sobre cada hoja dé doble clic y cambie el nombre por Artículos, Datos y <em>Kárdex</em>, como se muestra en la siguiente figura:
+                p.mb-0 En la parte inferior donde encuentra el signo + dé clic para crear tres hojas nuevas, luego sobre cada hoja dé doble clic y cambie el nombre por "Artículos", "Datos" y <em>"Kárdex"</em>, como se muestra en la siguiente figura:
             .row.justify-content-center
               .col-lg-11.mb-2
                 .titulo-sexto.color-acento-contenido.mb-3
@@ -461,7 +461,7 @@
                 .cajon.color-primario.p-4.mb-4(style='background-color:#fff;')
                   p.mb-0 #[strong Recuerde:] en esta hoja se muestra en forma resumida la información de la hoja de datos.
 
-                p.mb-4 Para explorar y descubrir el paso a paso de cada fórmula cópiela en una celda de Excel y luego en la barra dé clic en fx, como se muestra en la siguiente figura:
+                p.mb-4 Para explorar y descubrir el paso a paso de cada fórmula cópiela en una celda de Excel y luego en la barra dé clic en "fx", como se muestra en la siguiente figura:
 
                 .titulo-sexto.color-acento-contenido.mb-3
                   p.mb-0  Botón funciones
@@ -513,7 +513,7 @@
             figure.mb-5(data-aos='')
               img.mx-auto(src='@/assets/curso/tema1/img32.svg', alt='Comprobante de cierre', style='width:505px;')
             
-            p.mb-3 Ahora, en la hoja denominada comprobante de cierre, cree los encabezados sugeridos en la siguiente figura:
+            p.mb-3 Ahora, en la hoja denominada "Comprobante de cierre", cree los encabezados sugeridos en la siguiente figura:
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 Encabezados hoja comprobante de cierre
             figure.mb-5(data-aos='')
@@ -540,7 +540,7 @@
           li 
             .lista-ol--cuadro__vineta
               span #[strong 1]
-            p.mb-0 Para construirlo inicie con la creación de una nueva hoja con el nombre: Balance de prueba ajustado, como se observa en la siguiente figura:
+            p.mb-0 Para construirlo inicie con la creación de una nueva hoja con el nombre: "Balance de prueba ajustado", como se observa en la siguiente figura:
         .row.justify-content-center
           .col-lg-11
             .titulo-sexto.color-acento-contenido.mb-3
@@ -574,7 +574,7 @@
             p.mb-0 #[strong Débito:] =+'Libro Mayor'!H5
             p.mb-4 #[strong Crédito:] =+'Libro Mayor'!I5
 
-            p.mb-3 #[strong Movimiento:] valores del comprobante de ajuste, utilice de nuevo la fórmula sumar.si.conjunto, que se aplicó en el libro mayor.
+            p.mb-3 #[strong Movimiento:] valores del comprobante de ajuste, utilice de nuevo la fórmula "sumar.si.conjunto", que se aplicó en el libro mayor.
             
             .cajon.color-secundario.p-4.mb-3
               p.mb-4 La fórmula quedará así: 
@@ -585,7 +585,7 @@
             p.mb-3 #[strong Saldos finales:] sumar las columnas de los saldos iniciales y del movimiento de la naturaleza de la cuenta y restarles los de la naturaleza contraria.
         
             .cajon.color-acento-contenido.p-4.mb-3
-              p.mb-0 #[strong Ejemplo:] para el caso de la cuenta 110505 Caja general, se suma el saldo inicial débito con el movimiento débito y se resta el movimiento crédito.
+              p.mb-0 #[strong Ejemplo:] para el caso de la cuenta 110505 "Caja general", se suma el saldo inicial débito con el movimiento débito y se resta el movimiento crédito.
         
         
         
