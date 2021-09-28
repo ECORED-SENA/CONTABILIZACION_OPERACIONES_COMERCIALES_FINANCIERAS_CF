@@ -304,7 +304,7 @@
                 p.mb-4 Para aprender a ingresar transacciones mediante el módulo "Contabilidad" te invitamos a seguir estos pasos:
                 .row
                   .col-auto
-                    a.anexo.mb-4(:href="obtenerLink('/downloads/Ingreso_modulo_contabilidad.pdf')" target="_blank")
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/Ingreso_módulo_contabilidad.pdf')" target="_blank")
                       .anexo__icono
                         img(src="@/assets/template/icono-pdf.svg")
                       .anexo__texto
