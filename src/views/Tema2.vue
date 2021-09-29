@@ -17,7 +17,7 @@
             i.fas.fa-quote-right(style='font-size:28px;')
           .bloque-texto-d__autor 
             .p.mb-0  (Wikipedia, 2021).
-        p.mb-4 Existen múltiples aplicativos que cumplen con esta valiosa labor en las empresas, entre ellos  Alegra, COI (Aspel), CONTPAQi, SAP Business One, SIIGO pyme, Helisa, Softland Pyme.
+        p.mb-4 Existen múltiples aplicativos que cumplen con esta valiosa labor en las empresas, entre ellos, Alegra, COI (Aspel), CONTPAQi, SAP Business One, SIIGO pyme, Helisa, Softland Pyme.
         p.mb-4 Por lo general, todos los programas contables coinciden en una serie de características generales, entre ellas:
         ul.lista-ul.ps-4
           li 
@@ -166,7 +166,7 @@
     #t_2_2.titulo-segundo
       .h2 2.2 Ingreso al <em>software</em> 
 
-    p.mb-4 Para ingresar a la licencia demo que se le asigna como aprendiz debe realizarlo con el correo @misena y tiene 2 opciones de URL:
+    p.mb-4 Para ingresar a la licencia demo que se le asigna como aprendiz debe realizarlo con el correo @misena y tiene 3 opciones de URL:
     .row.justify-content-center.mb-2
       .col-auto(data-aos='fade-right')
         a.anexo.anexo-custom.mb-4.mb-lg-4(href="https://sena.siigo.com/ISIIGO/Login.aspx?ReturnUrl=%2fISIIGO%2fDefault.aspx" target="_blank" style="")
@@ -304,11 +304,11 @@
                 p.mb-4 Para aprender a ingresar transacciones mediante el módulo "Contabilidad" te invitamos a seguir estos pasos:
                 .row
                   .col-auto
-                    a.anexo.mb-4(:href="obtenerLink('/downloads/Ingreso_módulo_contabilidad.pdf')" target="_blank")
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/Ingreso_modulo_contabilidad.pdf')" target="_blank")
                       .anexo__icono
                         img(src="@/assets/template/icono-pdf.svg")
                       .anexo__texto
-                        p #[strong Anexo.] Ingreso_módulo_contabilidad
+                        p #[strong Anexo.] Ingreso_modulo_contabilidad
             .col-lg-3.mb-4.mb-lg-0
               figure.mb-4
                 img.mx-auto(src="@/assets/curso/tema2/img15.svg" alt='imagen ambiental' style='width:215px;')
@@ -335,11 +335,11 @@
                 p.mb-4 Para aprender a consultar y  generar los diversos informes contables a través de "SIIGO nube" siga estos pasos:
                 .row
                   .col-auto
-                    a.anexo.mb-4(:href="obtenerLink('/downloads/Generación_Reportes.pdf')" target="_blank")
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/Generacion_Reportes.pdf')" target="_blank")
                       .anexo__icono
                         img(src="@/assets/template/icono-pdf.svg")
                       .anexo__texto
-                        p #[strong Anexo.] Generación_Reportes
+                        p #[strong Anexo.] Generacion_Reportes
     
     
 
